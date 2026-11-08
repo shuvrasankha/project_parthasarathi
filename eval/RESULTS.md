@@ -57,3 +57,21 @@ The rewrite roughly doubles verse relevance. Without it, non-English messages su
 verses 6%, Hinglish and Banglish passages 10% and 8%; English passages hold up at 57%; n is 3-5 per language). The fallback works but is a big step down, so the
 rewrite should stay; it needs a reliable LLM, not necessarily a fast or large one.
 Reports: `report_norewrite_{dev,heldout}.md`.
+
+## v4: sections filled for 4 needs_check entries (2026-11-08)
+
+Sections found by searching the Ganguli text and checked with `quote_in`: Ekachakra (Adi 158-159),
+Parashurama (Vana 116), Shakuntala (Adi 74), Vikarna (Sabha 66, shares the scene with
+`draupadi-disrobing-sabha`). `vidura-insomnia-burden-of-knowledge` stays needs_check: in Udyoga 33 it is
+Dhritarashtra who cannot sleep, not Vidura, so the entry itself is wrong.
+
+Also fixed: `upsert_chunks` skipped rows whose text was unchanged even when their meta changed, so section
+and `reviewed` edits never reached the DB. Meta is now updated without re-embedding.
+
+| | dev v3 | dev v4 | held-out v3 | held-out v4 |
+|---|---|---|---|---|
+| situation hit rate | 64% | 64% | 67% | 67% |
+| verse relevance (judge) | 58% | 58% | 45% | 46% |
+| passage relevance (judge) | 56% | 58% | 55% | 55% |
+
+Within noise, as expected for 4 entries.

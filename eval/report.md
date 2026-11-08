@@ -1,7 +1,7 @@
 # Retrieval eval report
 
-- date: 2026-11-08  set: queries.yaml  queries: 50  runtime: 263s
-- LLM chain: groq,openrouter (groq: openai/gpt-oss-120b,qwen/qwen3.8-27b; openrouter: google/gemma-4-31b-it:free,nvidia/nemotron-3-ultra-550b-a55b:free,google/gemma-4-26b-a4b-it:free; nvidia: nvidia/nemotron-3-ultra-550b-a55b; anthropic: claude-haiku-5-5), rerank: False, linked_first: False, fts_text: all
+- date: 2026-11-08  set: queries.yaml  queries: 50  runtime: 44s
+- LLM chain: groq,openrouter (groq: openai/gpt-oss-120b,qwen/qwen3.8-27b; openrouter: google/gemma-4-31b-it:free,nvidia/nemotron-3-ultra-550b-a55b:free,google/gemma-4-26b-a4b-it:free; nvidia: nvidia/nemotron-3-ultra-550b-a55b; anthropic: claude-haiku-5-5), rerank: False, linked_first: False, fts_text: all, rewrite: True
 - theme match = mapped to data/themes.yaml, then equal or substring
 
 ## Summary
@@ -10,10 +10,10 @@
 |---|---|---|---|---|---|---|
 | situation hit rate (expected in top 2) | 64% (n=22) | 67% (n=12) | 67% (n=3) | 0% (n=2) | 67% (n=3) | 100% (n=2) |
 | theme overlap: rewrite themes | 72% (n=50) | 65% (n=25) | 80% (n=8) | 64% (n=6) | 81% (n=6) | 93% (n=5) |
-| theme overlap: retrieved situations' themes | 58% (n=50) | 64% (n=25) | 57% (n=8) | 56% (n=6) | 38% (n=6) | 58% (n=5) |
+| theme overlap: retrieved situations' themes | 59% (n=50) | 64% (n=25) | 57% (n=8) | 56% (n=6) | 43% (n=6) | 58% (n=5) |
 | theme overlap: retrieved verses' themes | n/a (n=0) | n/a (n=0) | n/a (n=0) | n/a (n=0) | n/a (n=0) | n/a (n=0) |
 | verse relevance, LLM judge (0-2 as %) | 58% (n=50) | 57% (n=25) | 65% (n=8) | 53% (n=6) | 69% (n=6) | 40% (n=5) |
-| passage relevance, LLM judge (0-2 as %) | 56% (n=50) | 60% (n=25) | 59% (n=8) | 33% (n=6) | 54% (n=6) | 65% (n=5) |
+| passage relevance, LLM judge (0-2 as %) | 58% (n=50) | 61% (n=25) | 59% (n=8) | 33% (n=6) | 54% (n=6) | 70% (n=5) |
 
 Verse theme overlap needs `themes` on verses; 0 of 701 verses have them so far.
 
@@ -22,7 +22,7 @@ Verse theme overlap needs `themes` on verses; 0 of 701 verses have them so far.
 - q01 (en): expected `arjuna-kurukshetra-dilemma`, got `uttara-freezes-battle`, `nala-damayanti-teaches-patience`
 - q15 (en): expected `eklavya-drona-thumb`, got `vikarna-protests-draupadi-disrobing`, `silence-of-elders-udyoga`
 - q16 (en): expected `dhritarashtra-lac-house`, got `yayati-sons-refuse-youth`, `kunti-reveals-karna`
-- q24 (en): expected `duryodhana-maya-palace`, got `draupadi-jealous-subhadra-arrival`, `karna-envy-arjuna-tournament`
+- q24 (en): expected `duryodhana-maya-palace`, got `draupadi-jealous-subhadra-arrival`, `draupadi-disrobing-sabha`
 - q26 (hinglish): expected `arjuna-kurukshetra-dilemma`, got `draupadi-disrobing-sabha`, `nala-damayanti-teaches-patience`
 - q35 (hi): expected `duryodhana-maya-palace`, got `draupadi-jealous-subhadra-arrival`, `kunti-reveals-karna`
 - q38 (hi): expected `draupadi-disrobing-sabha`, got `vikarna-protests-draupadi-disrobing`, `bhima-vows-revenge`
@@ -97,7 +97,7 @@ Verse theme overlap needs `themes` on verses; 0 of 701 verses have them so far.
 - rewritten: The person feels bitter because their best friend received a promotion they had worked for, leading to feelings of envy and resentment.
 - themes: envy, rivalry, anger, self-worth, pride  (expected: envy, rivalry, resentment)
 - expected situation: karna-envy-arjuna-tournament
-- situations: `draupadi-jealous-subhadra-arrival` 0.0325; `karna-envy-arjuna-tournament` 0.0323
+- situations: `draupadi-jealous-subhadra-arrival` 0.0325; `karna-envy-arjuna-tournament` 0.0320
 - verses: `6.6` 0.573 [direct] The Self is the friend of the self of him in whom the self by the Self…; `15.5` 0.547 [direct] Without pride and delusion, victorious over the vice of attachment, dw…; `6.5` 0.535 [direct] Let him raise the self by the Self and not let the self become depress…
 - passages: `santi-111-10` 0.603 [direct]; `santi-138-14` 0.577 [direct]
 - judge grades (verses then passages): [1, 2, 1, 2, 1]
@@ -109,7 +109,7 @@ Verse theme overlap needs `themes` on verses; 0 of 701 verses have them so far.
 - rewritten: The person has moved to a new city and feels isolated, having no one to talk to, making weekends especially difficult.
 - themes: loneliness, despair  (expected: loneliness, isolation)
 - expected situation: -
-- situations: `nala-damayanti-teaches-patience` 0.0323; `pandavas-final-journey-renunciation` 0.0318
+- situations: `nala-damayanti-teaches-patience` 0.0325; `pandavas-final-journey-renunciation` 0.0318
 - verses: `13.10` 0.622 [direct] Unattachment, absence of self-identification with son, wife or home, a…; `2.22` 0.547 [direct] As a man, casting off worn-out garments, taketh new ones, so the dwell…; `3.2` 0.534 [direct] With these perplexing words Thou only confusest my understanding; ther…
 - passages: `santi-177-5` 0.571 [direct]; `santi-175-3` 0.546 [direct]
 - judge grades (verses then passages): [1, 0, 1, 1, 0]
@@ -133,7 +133,7 @@ Verse theme overlap needs `themes` on verses; 0 of 701 verses have them so far.
 - rewritten: The person lost all their savings on crypto trading and keeps betting more to try to win it back, feeling trapped and anxious.
 - themes: loss, addiction, fear, guilt, despair  (expected: addiction, gambling, loss, recklessness)
 - expected situation: yudhishthira-dice-game
-- situations: `yudhishthira-dice-game` 0.0328; `nala-damayanti-teaches-patience` 0.0320
+- situations: `yudhishthira-dice-game` 0.0328; `nala-damayanti-teaches-patience` 0.0318
 - verses: `16.12` 0.605 [direct] Held in bondage by a hundred ties of expectation, given over to lust a…; `16.11` 0.603 [situation:yudhishthira-dice-game] Giving themselves over to unmeasured thought whose end is death, regar…; `16.16` 0.598 [direct] Bewildered by numerous thoughts, enmeshed in the web of delusion, addi…
 - passages: `santi-104-5` 0.582 [direct]; `santi-177-3` 0.574 [direct]
 - judge grades (verses then passages): [2, 1, 2, 2, 2]
@@ -145,7 +145,7 @@ Verse theme overlap needs `themes` on verses; 0 of 701 verses have them so far.
 - rewritten: The person is uncertain whether to report a coworker who is acting unethically because that coworker helped them obtain their job, and they feel conflicted about loyalty, duty, and doing the right thing.
 - themes: integrity, loyalty, duty, fear, guilt  (expected: loyalty, truth, duty, friendship)
 - expected situation: -
-- situations: `yudhishthira-ashwatthama-lie` 0.0325; `parashurama-kills-mother` 0.0325
+- situations: `yudhishthira-ashwatthama-lie` 0.0323; `parashurama-kills-mother` 0.0323
 - verses: `3.35` 0.635 [situation:parashurama-kills-mother] Better one's own duty, though destitute of merit, than the duty of ano…; `2.7` 0.611 [direct] My heart is weighed down with the vice of faintness; my mind is confus…; `18.47` 0.597 [direct] Better is one's own duty though destitute of merits than the well-exec…
 - passages: `santi-260-1` 0.591 [direct]; `santi-132-3` 0.585 [direct]
 - judge grades (verses then passages): [2, 2, 2, 2, 2]
@@ -181,7 +181,7 @@ Verse theme overlap needs `themes` on verses; 0 of 701 verses have them so far.
 - rewritten: The person discovered they were adopted and now their birth mother wants to meet them, causing feelings of anger and confusion.
 - themes: anger, identity, family  (expected: abandonment, identity, family, anger)
 - expected situation: kunti-reveals-karna
-- situations: `kunti-reveals-karna` 0.0328; `yudhishthira-regrets-karna` 0.0310
+- situations: `kunti-reveals-karna` 0.0328; `yudhishthira-regrets-karna` 0.0308
 - verses: `2.63` 0.527 [direct] From anger proceedeth delusion; from delusion confused memory; from co…; `1.40` 0.522 [direct] In the destruction of a family the immemorial family traditions perish…; `1.42` 0.505 [direct] This confusion draggeth to hell the slayers of the family, and the fam…
 - passages: `anusasana-49-1` 0.535 [direct]; `santi-174-3` 0.532 [direct]
 - judge grades (verses then passages): [2, 0, 0, 0, 1]
@@ -229,7 +229,7 @@ Verse theme overlap needs `themes` on verses; 0 of 701 verses have them so far.
 - rewritten: The person won a lawsuit against an old business partner but feels empty instead of happy.
 - themes: despair, purpose, identity  (expected: guilt, emptiness, victory)
 - expected situation: yudhishthira-grief-after-victory
-- situations: `yudhishthira-grief-after-victory` 0.0323; `pandavas-mendicants-in-ekachakra` 0.0320
+- situations: `pandavas-mendicants-in-ekachakra` 0.0320; `yudhishthira-grief-after-victory` 0.0318
 - verses: `13.9` 0.528 [direct] Dispassion towards the objects of the senses, and also absence of egoi…; `9.12` 0.527 [direct] Empty of hope, empty of deeds, empty of wisdom, senseless, partaking o…; `16.13` 0.524 [direct] "This to-day by me hath been won, that purpose I shall gain; this weal…
 - passages: `santi-177-5` 0.582 [direct]; `santi-104-5` 0.538 [direct]
 - judge grades (verses then passages): [0, 0, 2, 2, 1]
@@ -241,7 +241,7 @@ Verse theme overlap needs `themes` on verses; 0 of 701 verses have them so far.
 - rewritten: The person feels intense anger that leads them to say things they later regret, such as screaming at their children.
 - themes: anger, guilt, family, self-control  (expected: anger, regret, self-control, family)
 - expected situation: -
-- situations: `gandhari-lament-sons` 0.0323; `bhima-vows-revenge` 0.0323
+- situations: `gandhari-lament-sons` 0.0325; `bhima-vows-revenge` 0.0318
 - verses: `2.63` 0.609 [direct] From anger proceedeth delusion; from delusion confused memory; from co…; `1.40` 0.557 [direct] In the destruction of a family the immemorial family traditions perish…; `16.16` 0.521 [situation:gandhari-lament-sons] Bewildered by numerous thoughts, enmeshed in the web of delusion, addi…
 - passages: `santi-25-3` 0.577 [direct]; `vana-29-1` 0.572 [direct]
 - judge grades (verses then passages): [2, 1, 1, 0, 2]
@@ -265,7 +265,7 @@ Verse theme overlap needs `themes` on verses; 0 of 701 verses have them so far.
 - rewritten: The person has been unemployed for two years, and each rejection makes them feel increasingly worthless, yet they continue to persevere.
 - themes: career, self-worth, fear of failure, despair, identity  (expected: patience, setback, self-worth, perseverance)
 - expected situation: nala-damayanti-teaches-patience
-- situations: `pandavas-mendicants-in-ekachakra` 0.0320; `nala-damayanti-teaches-patience` 0.0318
+- situations: `pandavas-mendicants-in-ekachakra` 0.0325; `nala-damayanti-teaches-patience` 0.0318
 - verses: `16.10` 0.595 [direct] Surrendering themselves to insatiable desires, possessed with vanity, …; `13.10` 0.579 [direct] Unattachment, absence of self-identification with son, wife or home, a…; `7.27` 0.497 [situation:pandavas-mendicants-in-ekachakra] By the delusion of the pairs of opposites, sprung from attraction and …
 - passages: `santi-218-6` 0.552 [direct]; `santi-138-21` 0.504 [direct]
 - judge grades (verses then passages): [1, 2, 0, 0, 1]
@@ -279,8 +279,8 @@ Verse theme overlap needs `themes` on verses; 0 of 701 verses have them so far.
 - expected situation: -
 - situations: `shalya-karna-charioteer` 0.0325; `vikarna-protests-draupadi-disrobing` 0.0320
 - verses: `2.7` 0.608 [situation:shalya-karna-charioteer] My heart is weighed down with the vice of faintness; my mind is confus…; `3.35` 0.603 [direct] Better one's own duty, though destitute of merit, than the duty of ano…; `3.19` 0.537 [direct] Therefore, without attachment, constantly perform action which is duty…
-- passages: `santi-56-1` 0.452 [direct]; `drona-5-2` 0.450 [direct]
-- judge grades (verses then passages): [0, 2, 1, 1, 1]
+- passages: `sabha-66-17` 0.491 [situation:vikarna-protests-draupadi-disrobing]; `santi-56-1` 0.452 [direct]
+- judge grades (verses then passages): [0, 2, 1, 2, 1]
 
 ### q22 (en) — HIT
 
@@ -289,7 +289,7 @@ Verse theme overlap needs `themes` on verses; 0 of 701 verses have them so far.
 - rewritten: The person is 70 years old, their children are settled, and they want to let go of everything but feel afraid.
 - themes: fear, renunciation, attachment, purpose, identity  (expected: renunciation, letting go, death, fear)
 - expected situation: pandavas-final-journey-renunciation
-- situations: `pandavas-final-journey-renunciation` 0.0328; `pandavas-mendicants-in-ekachakra` 0.0317
+- situations: `pandavas-final-journey-renunciation` 0.0328; `kunti-reveals-karna` 0.0318
 - verses: `13.10` 0.636 [direct] Unattachment, absence of self-identification with son, wife or home, a…; `2.62` 0.544 [direct] Man, musing on the objects of sense, conceiveth an attachment to these…; `8.6` 0.501 [situation:pandavas-final-journey-renunciation] Whosoever at the end abandoneth the body, thinking upon any being, to …
 - passages: `santi-177-5` 0.592 [direct]; `santi-289-2` 0.585 [direct]
 - judge grades (verses then passages): [2, 1, 1, 2, 2]
@@ -313,7 +313,7 @@ Verse theme overlap needs `themes` on verses; 0 of 701 verses have them so far.
 - rewritten: The person feels overlooked because their cousin is constantly compared to them and celebrated by the family, causing feelings of envy, rivalry, and humiliation.
 - themes: envy, rivalry, humiliation, family, self-worth  (expected: envy, rivalry, family, comparison)
 - expected situation: duryodhana-maya-palace
-- situations: `draupadi-jealous-subhadra-arrival` 0.0325; `karna-envy-arjuna-tournament` 0.0320
+- situations: `draupadi-jealous-subhadra-arrival` 0.0325; `draupadi-disrobing-sabha` 0.0317
 - verses: `1.40` 0.567 [direct] In the destruction of a family the immemorial family traditions perish…; `6.6` 0.557 [direct] The Self is the friend of the self of him in whom the self by the Self…; `3.43` 0.542 [direct] Thus understanding Him as greater than the Reason, restraining the sel…
 - passages: `santi-80-4` 0.608 [direct]; `santi-138-15` 0.570 [direct]
 - judge grades (verses then passages): [0, 2, 1, 2, 1]
@@ -337,7 +337,7 @@ Verse theme overlap needs `themes` on verses; 0 of 701 verses have them so far.
 - rewritten: The person feels anxious about the upcoming board exams and believes they will fail because they have not studied.
 - themes: fear of failure, exams, self-worth, despair, fear  (expected: fear of failure, anxiety, exams)
 - expected situation: arjuna-kurukshetra-dilemma
-- situations: `draupadi-disrobing-sabha` 0.0315; `nala-damayanti-teaches-patience` 0.0313
+- situations: `draupadi-disrobing-sabha` 0.0317; `nala-damayanti-teaches-patience` 0.0313
 - verses: `13.10` 0.600 [direct] Unattachment, absence of self-identification with son, wife or home, a…; `4.40` 0.571 [direct] But the ignorant, faithless, doubting self goeth to destruction; nor t…; `10.4` 0.543 [direct] Reason, wisdom, non-illusion, forgiveness, truth, self-restraint, calm…
 - passages: `santi-277-2` 0.560 [direct]; `santi-104-5` 0.560 [direct]
 - judge grades (verses then passages): [2, 1, 1, 0, 0]
@@ -385,7 +385,7 @@ Verse theme overlap needs `themes` on verses; 0 of 701 verses have them so far.
 - rewritten: The person is torn between confronting a friend who is engaged in wrongdoing and the gratitude they feel because the friend supported them during a difficult time.
 - themes: loyalty, friendship, duty, guilt, integrity  (expected: loyalty, friendship, duty, truth)
 - expected situation: -
-- situations: `yudhishthira-seeks-blessings-from-elders` 0.0325; `draupadi-doubts-yudhishthira-dharma` 0.0318
+- situations: `yudhishthira-seeks-blessings-from-elders` 0.0323; `draupadi-doubts-yudhishthira-dharma` 0.0318
 - verses: `3.35` 0.648 [direct] Better one's own duty, though destitute of merit, than the duty of ano…; `2.7` 0.639 [situation:yudhishthira-seeks-blessings-from-elders] My heart is weighed down with the vice of faintness; my mind is confus…; `18.47` 0.610 [direct] Better is one's own duty though destitute of merits than the well-exec…
 - passages: `santi-138-14` 0.649 [direct]; `santi-138-15` 0.625 [direct]
 - judge grades (verses then passages): [1, 2, 1, 2, 1]
@@ -445,7 +445,7 @@ Verse theme overlap needs `themes` on verses; 0 of 701 verses have them so far.
 - rewritten: The person feels jealous because their brother always receives more love.
 - themes: envy, family, self-worth, loneliness, attachment  (expected: envy, family, favoritism, sibling rivalry)
 - expected situation: duryodhana-maya-palace
-- situations: `draupadi-jealous-subhadra-arrival` 0.0328; `kunti-reveals-karna` 0.0315
+- situations: `draupadi-jealous-subhadra-arrival` 0.0328; `kunti-reveals-karna` 0.0310
 - verses: `2.62` 0.634 [direct] Man, musing on the objects of sense, conceiveth an attachment to these…; `6.6` 0.564 [direct] The Self is the friend of the self of him in whom the self by the Self…; `6.7` 0.553 [direct] The higher Self of him who is Self -controlled and peaceful is uniform…
 - passages: `santi-321-19` 0.621 [direct]; `santi-25-3` 0.593 [direct]
 - judge grades (verses then passages): [1, 1, 1, 0, 1]
@@ -493,7 +493,7 @@ Verse theme overlap needs `themes` on verses; 0 of 701 verses have them so far.
 - rewritten: The person wonders whether to forgive the individual who broke their heart.
 - themes: forgiveness, heartbreak, betrayal, love  (expected: forgiveness, betrayal, anger)
 - expected situation: -
-- situations: `nala-damayanti-teaches-patience` 0.0320; `amba-vow-against-bhishma` 0.0305
+- situations: `yudhishthira-regrets-karna` 0.0320; `nala-damayanti-teaches-patience` 0.0320
 - verses: `2.7` 0.643 [direct] My heart is weighed down with the vice of faintness; my mind is confus…; `11.45` 0.606 [direct] I have seen that which none hath seen before, My heart is glad, yet fa…; `11.42` 0.589 [direct] If jesting I irreverence showed to Thee, At play, reposing, sitting or…
 - passages: `santi-146-3` 0.629 [direct]; `udyoga-33-6` 0.616 [direct]
 - judge grades (verses then passages): [1, 1, 1, 0, 0]
@@ -505,7 +505,7 @@ Verse theme overlap needs `themes` on verses; 0 of 701 verses have them so far.
 - rewritten: The person feels humiliated because their boss insulted them in front of everyone, causing embarrassment and hurt.
 - themes: humiliation, anger, self-worth, fear, loneliness  (expected: humiliation, workplace, anger)
 - expected situation: draupadi-disrobing-sabha
-- situations: `draupadi-disrobing-sabha` 0.0325; `vikarna-protests-draupadi-disrobing` 0.0318
+- situations: `draupadi-disrobing-sabha` 0.0325; `bhima-vows-revenge` 0.0315
 - verses: `6.6` 0.573 [direct] The Self is the friend of the self of him in whom the self by the Self…; `6.7` 0.555 [direct] The higher Self of him who is Self -controlled and peaceful is uniform…; `2.34` 0.545 [situation:draupadi-disrobing-sabha] Men will recount thy perpetual dishonour, and, to one highly esteemed,…
 - passages: `santi-111-10` 0.616 [direct]; `vana-29-1` 0.563 [direct]
 - judge grades (verses then passages): [1, 1, 2, 2, 1]
@@ -529,7 +529,7 @@ Verse theme overlap needs `themes` on verses; 0 of 701 verses have them so far.
 - rewritten: The person feels torn because their parents want them to take a job, but they themselves want to start their own business.
 - themes: duty, career, purpose, identity, self-worth  (expected: career, family, duty)
 - expected situation: -
-- situations: `kunti-reveals-karna` 0.0325; `yayati-sons-refuse-youth` 0.0315
+- situations: `kunti-reveals-karna` 0.0325; `yayati-sons-refuse-youth` 0.0312
 - verses: `3.35` 0.583 [direct] Better one's own duty, though destitute of merit, than the duty of ano…; `18.47` 0.564 [direct] Better is one's own duty though destitute of merits than the well-exec…; `18.45` 0.545 [direct] Man reacheth perfection by each being intent on his own duty. Listen t…
 - passages: `santi-260-3` 0.559 [direct]; `santi-332-2` 0.555 [direct]
 - judge grades (verses then passages): [2, 2, 2, 1, 0]
@@ -603,8 +603,8 @@ Verse theme overlap needs `themes` on verses; 0 of 701 verses have them so far.
 - expected situation: silence-of-elders-udyoga
 - situations: `vikarna-protests-draupadi-disrobing` 0.0325; `silence-of-elders-udyoga` 0.0323
 - verses: `1.40` 0.599 [direct] In the destruction of a family the immemorial family traditions perish…; `18.47` 0.584 [direct] Better is one's own duty though destitute of merits than the well-exec…; `3.35` 0.562 [direct] Better one's own duty, though destitute of merit, than the duty of ano…
-- passages: `sabha-66-17` 0.552 [direct]; `sauptika-5-1` 0.537 [direct]
-- judge grades (verses then passages): [2, 0, 0, 2, 0]
+- passages: `sabha-66-17` 0.552 [situation:vikarna-protests-draupadi-disrobing]; `santi-266-10` 0.539 [direct]
+- judge grades (verses then passages): [2, 0, 0, 2, 1]
 
 ### q49 (bn) — HIT
 
@@ -613,7 +613,7 @@ Verse theme overlap needs `themes` on verses; 0 of 701 verses have them so far.
 - rewritten: The person keeps failing job interviews and feels unable to maintain patience.
 - themes: fear of failure, patience, career, self-worth, despair  (expected: patience, failure, setback, career)
 - expected situation: nala-damayanti-teaches-patience
-- situations: `nala-damayanti-teaches-patience` 0.0328; `arjuna-jayadratha-vow-sunset` 0.0304
+- situations: `nala-damayanti-teaches-patience` 0.0328; `arjuna-jayadratha-vow-sunset` 0.0306
 - verses: `9.12` 0.638 [direct] Empty of hope, empty of deeds, empty of wisdom, senseless, partaking o…; `10.4` 0.555 [direct] Reason, wisdom, non-illusion, forgiveness, truth, self-restraint, calm…; `4.40` 0.547 [direct] But the ignorant, faithless, doubting self goeth to destruction; nor t…
 - passages: `santi-139-10` 0.580 [direct]; `sauptika-2-3` 0.558 [direct]
 - judge grades (verses then passages): [1, 1, 1, 2, 2]
@@ -625,7 +625,7 @@ Verse theme overlap needs `themes` on verses; 0 of 701 verses have them so far.
 - rewritten: The person acted in a fit of anger and now feels regret for what they did.
 - themes: anger, guilt  (expected: anger, regret, guilt)
 - expected situation: -
-- situations: `gandhari-lament-sons` 0.0315; `bhima-kills-duhsasana-drinks-blood` 0.0309
-- verses: `2.62` 0.646 [direct] Man, musing on the objects of sense, conceiveth an attachment to these…; `2.63` 0.643 [direct] From anger proceedeth delusion; from delusion confused memory; from co…; `16.11` 0.561 [direct] Giving themselves over to unmeasured thought whose end is death, regar…
+- situations: `gandhari-lament-sons` 0.0312; `aswatthaman-night-massacre` 0.0308
+- verses: `2.62` 0.646 [direct] Man, musing on the objects of sense, conceiveth an attachment to these…; `2.63` 0.643 [situation:aswatthaman-night-massacre] From anger proceedeth delusion; from delusion confused memory; from co…; `16.18` 0.570 [situation:aswatthaman-night-massacre] Given over to egoism, power, insolence, lust and wrath, these maliciou…
 - passages: `santi-146-3` 0.623 [direct]; `santi-291-3` 0.563 [direct]
 - judge grades (verses then passages): [2, 2, 1, 2, 1]

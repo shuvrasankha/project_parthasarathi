@@ -1318,7 +1318,8 @@
 - id: shakuntala-rejected-dushyanta
   title: Shakuntala Rejected by Dushmanta in Court
   parva: Adi
-  sections: []
+  sections:
+  - 74
   characters:
   - Sakuntala
   - Dushmanta
@@ -1339,10 +1340,9 @@
   - '2.3'
   - '5.22'
   reviewed: false
-  needs_check: true
-  check_reason: no candidate section narrates the episode (looked at [74, 73, 2, 71, 95, 123, 94, 65,
-    68, 69, 70, 72])
-  evidence: []
+  evidence:
+  - section: 74
+    quote: all that thou sayest is quite unknown to me. I don't know thee. Go withersoever thou choosest
   everyday:
   - My boss knows we're married but HR says no record exists. He's denying everything.
   - His parents act like I don't exist. He won't correct them or claim our baby.
@@ -1435,7 +1435,8 @@
 - id: parashurama-kills-mother
   title: Parashurama Kills His Mother on His Father's Command
   parva: Vana
-  sections: []
+  sections:
+  - 116
   characters:
   - Rama (Parashurama)
   - Jamadagni
@@ -1456,10 +1457,10 @@
   - '3.35'
   - '1.36'
   reviewed: false
-  needs_check: true
-  check_reason: no candidate section narrates the episode (looked at [99, 83, 115, 116, 117, 85, 87, 82,
-    118])
-  evidence: []
+  evidence:
+  - section: 116
+    quote: Kill this wicked mother of thine, without compunction, O my son.' Thereupon Rama immediately
+      took up an axe and therewith severed his mother's head
   everyday:
   - My boss wants me to falsify reports. I'll lose my job if I refuse.
   - Dad insists I cut off my sister. He'll disown me if I don't comply.
@@ -1582,7 +1583,9 @@
 - id: pandavas-mendicants-in-ekachakra
   title: The Pandavas Live as Begging Brahmins in Ekachakra
   parva: Adi
-  sections: []
+  sections:
+  - 158
+  - 159
   characters:
   - Yudhishthira
   - Bhima
@@ -1605,10 +1608,12 @@
   - '18.62'
   - '7.27'
   reviewed: false
-  needs_check: true
-  check_reason: no candidate section narrates the episode (looked at [1, 193, 2, 61, 95, 150, 223, 140,
-    151, 152, 153])
-  evidence: []
+  evidence:
+  - section: 158
+    quote: Vyasa, the son of Satyavati, thus comforting the Pandavas, led them into the town of Ekachakra
+  - section: 159
+    quote: on arriving at Ekachakra, lived for a short time in the abode of a Brahmana. Leading an eleemosynary
+      life
   everyday:
   - Lost my senior role, now taking entry-level tasks. Nobody knows my past. Feels like starting from
     zero.
@@ -1774,7 +1779,8 @@
 - id: vikarna-protests-draupadi-disrobing
   title: Vikarna Denounces Draupadi's Disrobing in the Assembly
   parva: Sabha
-  sections: []
+  sections:
+  - 66
   characters:
   - Vikarna
   - Duryodhana
@@ -1796,10 +1802,10 @@
   - '2.34'
   - '1.28'
   reviewed: false
-  needs_check: true
-  check_reason: no candidate section narrates the episode (looked at [66, 80, 70, 57, 69, 73, 48, 79,
-    65, 68, 71, 72])
-  evidence: []
+  evidence:
+  - section: 66
+    quote: Vikarna the son of Dhritarashtra said--'Ye kings, answer ye the question that hath been asked
+      by Yajnaseni
   everyday:
   - My boss ignored harassment in the meeting; should I speak up alone?
   - Uncle made a cruel joke at dinner; everyone laughed, I stayed quiet.

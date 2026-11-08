@@ -5,110 +5,7 @@ For each entry, check the boxes against the quotes below (or open the section in
 `data/clean/mb_passages.jsonl`). Then in `situations.yaml` fix or delete the entry and set
 `reviewed: true`. Run `make ingest-situations` when done.
 
-43 entries, 0 reviewed, 5 need a check. Unreviewed and needs_check first.
-
-## The Pandavas Live as Begging Brahmins in Ekachakra
-
-`pandavas-mendicants-in-ekachakra` · Adi Parva, sections none · reviewed: False
-
-**Needs check:** no candidate section narrates the episode (looked at [1, 193, 2, 61, 95, 150, 223, 140, 151, 152, 153])
-
-**Characters:** Yudhishthira, Bhima, Arjuna, Nakula, Sahadeva, Kunti
-
-**Dilemma:** A person who once held status and security loses everything and must survive by adopting the humblest possible identity, begging door-to-door while concealing their true self. The reversal strips away all external markers of worth, forcing a confrontation with dependence and anonymity.
-
-**Themes:** humiliation, identity, survival, humility, loss, patience
-
-**Evidence (verbatim Ganguli):**
-
-- (none)
-
-**Section openings:**
-
-- (none)
-
-**Linked verses (Besant):**
-
-- 1.32: For I desire not victory, O Krishna, nor kingdom, nor pleasures; what is kingdom to us, O Govinda, what enjoyment or even life?
-- 18.62: Flee unto Him for shelter with all thy being, O Bhârata; by His grace thou shalt obtain supreme peace, the everlasting dwelling-place.
-- 7.27: By the delusion of the pairs of opposites, sprung from attraction and repulsion, O Bhârata, all beings walk this universe wholly deluded, O Parantapa.
-
-**Sounds like:** Lost my senior role, now taking entry-level tasks. Nobody knows my past. Feels like starting from zero. / Moved back with parents at 35. Hiding my failed business. Pretending I'm just 'between jobs' to them. / PhD dropout, now auditing undergrad classes anonymously. Professor asked my background; I lied and said 'first year.' / Old friends invite me to expensive trips. I make excuses, can't admit I'm broke and couch-surfing. / New partner thinks I'm a consultant. Really I'm doing gig work, sleeping in my car. Terrified they'll find out.
-
-- [ ] the episode really happens in these sections
-- [ ] the dilemma is fair to the story (nothing added)
-- [ ] the linked verses fit
-- [ ] the themes fit
-
----
-
-## Parashurama Kills His Mother on His Father's Command
-
-`parashurama-kills-mother` · Vana Parva, sections none · reviewed: False
-
-**Needs check:** no candidate section narrates the episode (looked at [99, 83, 115, 116, 117, 85, 87, 82, 118])
-
-**Characters:** Rama (Parashurama), Jamadagni, Renuka, Bhargava, Kartavirya
-
-**Dilemma:** A person faces pressure from a respected authority figure to carry out an act that violates their deepest moral convictions. They must choose between obedience to that authority and fidelity to their own conscience, knowing that either choice will bring profound personal cost.
-
-**Themes:** duty, obedience, integrity, family, sacrifice, guilt
-
-**Evidence (verbatim Ganguli):**
-
-- (none)
-
-**Section openings:**
-
-- (none)
-
-**Linked verses (Besant):**
-
-- 3.35: Better one's own duty, though destitute of merit, than the duty of another, well discharged. Better death in the discharge of one's own duty; the duty of another is full of danger.
-- 1.36: Slaying these sons of Dhritarâshtra, what pleasure can be ours, O Janârdana? Killing these desperadoes, sin will but take hold of us.
-
-**Sounds like:** My boss wants me to falsify reports. I'll lose my job if I refuse. / Dad insists I cut off my sister. He'll disown me if I don't comply. / Professor demands I plagiarize for the grant. My degree depends on it. / Best friend wants me to lie to cover their crime. They'll end our friendship otherwise. / Partner pressures me to abort. Says they'll leave if I keep the baby.
-
-- [ ] the episode really happens in these sections
-- [ ] the dilemma is fair to the story (nothing added)
-- [ ] the linked verses fit
-- [ ] the themes fit
-
----
-
-## Shakuntala Rejected by Dushmanta in Court
-
-`shakuntala-rejected-dushyanta` · Adi Parva, sections none · reviewed: False
-
-**Needs check:** no candidate section narrates the episode (looked at [74, 73, 2, 71, 95, 123, 94, 65, 68, 69, 70, 72])
-
-**Characters:** Sakuntala, Dushmanta, Bharata, Kanwa, Gautami
-
-**Dilemma:** A person is publicly denied by their partner who refuses to acknowledge their marriage and child, leaving them without support or recognition. The betrayal cuts deep because it comes from someone who once pledged commitment, and the rejection plays out before others who witness the humiliation.
-
-**Themes:** humiliation, betrayal, abandonment, motherhood, identity, justice
-
-**Evidence (verbatim Ganguli):**
-
-- (none)
-
-**Section openings:**
-
-- (none)
-
-**Linked verses (Besant):**
-
-- 2.3: Yield not to impotence, O Partha! it doth not befit thee. Shake off this paltry faint-heartedness! Stand up, Parantapa!
-- 5.22: The delights that are contact-born, they are verily wombs of pain, for they have beginning and ending, O Kaunteya; not in them may rejoice the wise.
-
-**Sounds like:** My boss knows we're married but HR says no record exists. He's denying everything. / His parents act like I don't exist. He won't correct them or claim our baby. / Classmates saw him introduce me as wife. Now he tells everyone we're nothing. / Our friends watched him promise forever. Now he pretends we never happened. / He signed the papers, held our son, then walked into court and said 'never met her.'
-
-- [ ] the episode really happens in these sections
-- [ ] the dilemma is fair to the story (nothing added)
-- [ ] the linked verses fit
-- [ ] the themes fit
-
----
+43 entries, 0 reviewed, 1 need a check. Unreviewed and needs_check first.
 
 ## Vidura's Sleepless Agony Over the Coming War
 
@@ -137,40 +34,6 @@ For each entry, check the boxes against the quotes below (or open the section in
 - 2.63: From anger proceedeth delusion; from delusion confused memory; from confused memory the destruction of Reason; from destruction of Reason he perishes.
 
 **Sounds like:** I've warned management about the project's fatal flaw, but they won't listen. I'm losing sleep over the team's fallout. / My parents refuse to plan for their care, and I'm terrified they'll suffer. I feel helpless. / My research shows the policy will harm students, but the committee ignores me. I'm exhausted fighting alone. / I see my friend heading into a toxic relationship, but she won't hear my concerns. It's killing me. / My partner dismisses my warnings about our finances, and I'm dreading the inevitable crash. I can't sleep.
-
-- [ ] the episode really happens in these sections
-- [ ] the dilemma is fair to the story (nothing added)
-- [ ] the linked verses fit
-- [ ] the themes fit
-
----
-
-## Vikarna Denounces Draupadi's Disrobing in the Assembly
-
-`vikarna-protests-draupadi-disrobing` · Sabha Parva, sections none · reviewed: False
-
-**Needs check:** no candidate section narrates the episode (looked at [66, 80, 70, 57, 69, 73, 48, 79, 65, 68, 71, 72])
-
-**Characters:** Vikarna, Duryodhana, Duhsasana, Draupadi, Bhishma, Drona, Vidura
-
-**Dilemma:** A person witnesses a public humiliation or injustice and feels compelled to speak out, but sees that senior leaders and respected figures remain silent. The dilemma is whether to risk isolation and retaliation by being the lone voice of conscience, or to stay quiet like everyone else.
-
-**Themes:** courage, silence, humiliation, duty, integrity
-
-**Evidence (verbatim Ganguli):**
-
-- (none)
-
-**Section openings:**
-
-- (none)
-
-**Linked verses (Besant):**
-
-- 2.34: Men will recount thy perpetual dishonour, and, to one highly esteemed, dishonour exceedeth death.
-- 1.28: Deeply moved to pity, thus uttered in sadness: Arjuna said: Seeing these my kinsmen, O Krishna, arrayed, eager to fight,
-
-**Sounds like:** My boss ignored harassment in the meeting; should I speak up alone? / Uncle made a cruel joke at dinner; everyone laughed, I stayed quiet. / Professor dismissed a student's complaint; classmates silent, I'm torn. / Friend posted a hateful comment; group chat quiet, I want to respond. / Partner belittled me in front of friends; they said nothing, I'm scared.
 
 - [ ] the episode really happens in these sections
 - [ ] the dilemma is fair to the story (nothing added)
@@ -1105,6 +968,73 @@ For each entry, check the boxes against the quotes below (or open the section in
 
 ---
 
+## The Pandavas Live as Begging Brahmins in Ekachakra
+
+`pandavas-mendicants-in-ekachakra` · Adi Parva, sections 158, 159 · reviewed: False
+
+**Characters:** Yudhishthira, Bhima, Arjuna, Nakula, Sahadeva, Kunti
+
+**Dilemma:** A person who once held status and security loses everything and must survive by adopting the humblest possible identity, begging door-to-door while concealing their true self. The reversal strips away all external markers of worth, forcing a confrontation with dependence and anonymity.
+
+**Themes:** humiliation, identity, survival, humility, loss, patience
+
+**Evidence (verbatim Ganguli):**
+
+- §158: "Vyasa, the son of Satyavati, thus comforting the Pandavas, led them into the town of Ekachakra"
+- §159: "on arriving at Ekachakra, lived for a short time in the abode of a Brahmana. Leading an eleemosynary life"
+
+**Section openings:**
+
+- §158: (Hidimva-vadha Parva continued) "Vaisampayana said, 'Those mighty car-warriors, the heroic Pandavas, then went, O king, from forest to forest killing deer and many animals (for their food). And in the course of their wanderings they saw the countries of the Matsyas, the Trigartas, the Panchalas and then of the Kichakas, and also many beautiful woods and lakes therein. And they …
+- §159: (Vaka-vadha Parva) "Janamejaya asked, 'O first of Brahmanas, what did the Pandavas, those mighty car-warriors, the sons of Kunti, do after arriving at Ekachakra?' "Vaisampayana said, 'Those mighty car-warriors, the sons of Kunti, on arriving at Ekachakra, lived for a short time in the abode of a Brahmana. Leading an eleemosynary life, they behold (in course of their wanderings) various …
+
+**Linked verses (Besant):**
+
+- 1.32: For I desire not victory, O Krishna, nor kingdom, nor pleasures; what is kingdom to us, O Govinda, what enjoyment or even life?
+- 18.62: Flee unto Him for shelter with all thy being, O Bhârata; by His grace thou shalt obtain supreme peace, the everlasting dwelling-place.
+- 7.27: By the delusion of the pairs of opposites, sprung from attraction and repulsion, O Bhârata, all beings walk this universe wholly deluded, O Parantapa.
+
+**Sounds like:** Lost my senior role, now taking entry-level tasks. Nobody knows my past. Feels like starting from zero. / Moved back with parents at 35. Hiding my failed business. Pretending I'm just 'between jobs' to them. / PhD dropout, now auditing undergrad classes anonymously. Professor asked my background; I lied and said 'first year.' / Old friends invite me to expensive trips. I make excuses, can't admit I'm broke and couch-surfing. / New partner thinks I'm a consultant. Really I'm doing gig work, sleeping in my car. Terrified they'll find out.
+
+- [ ] the episode really happens in these sections
+- [ ] the dilemma is fair to the story (nothing added)
+- [ ] the linked verses fit
+- [ ] the themes fit
+
+---
+
+## Parashurama Kills His Mother on His Father's Command
+
+`parashurama-kills-mother` · Vana Parva, sections 116 · reviewed: False
+
+**Characters:** Rama (Parashurama), Jamadagni, Renuka, Bhargava, Kartavirya
+
+**Dilemma:** A person faces pressure from a respected authority figure to carry out an act that violates their deepest moral convictions. They must choose between obedience to that authority and fidelity to their own conscience, knowing that either choice will bring profound personal cost.
+
+**Themes:** duty, obedience, integrity, family, sacrifice, guilt
+
+**Evidence (verbatim Ganguli):**
+
+- §116: "Kill this wicked mother of thine, without compunction, O my son.' Thereupon Rama immediately took up an axe and therewith severed his mother's head"
+
+**Section openings:**
+
+- §116: "Akritavrana said, 'Jamadagni devoted himself to the study of the Veda and the practice of sacred penances, and became famous for his great austerities. Then he pursued a methodical course of study and obtained a mastery over the entire Veda. And, O king, he paid a visit to Prasenajit and solicited the hand of Renuka in marriage. And this prayer …
+
+**Linked verses (Besant):**
+
+- 3.35: Better one's own duty, though destitute of merit, than the duty of another, well discharged. Better death in the discharge of one's own duty; the duty of another is full of danger.
+- 1.36: Slaying these sons of Dhritarâshtra, what pleasure can be ours, O Janârdana? Killing these desperadoes, sin will but take hold of us.
+
+**Sounds like:** My boss wants me to falsify reports. I'll lose my job if I refuse. / Dad insists I cut off my sister. He'll disown me if I don't comply. / Professor demands I plagiarize for the grant. My degree depends on it. / Best friend wants me to lie to cover their crime. They'll end our friendship otherwise. / Partner pressures me to abort. Says they'll leave if I keep the baby.
+
+- [ ] the episode really happens in these sections
+- [ ] the dilemma is fair to the story (nothing added)
+- [ ] the linked verses fit
+- [ ] the themes fit
+
+---
+
 ## Savitri Wins Back Satyavan from Yama
 
 `savitri-satyavan` · Vana Parva, sections 295, 296 · reviewed: False
@@ -1132,6 +1062,38 @@ For each entry, check the boxes against the quotes below (or open the section in
 - 18.45: Man reacheth perfection by each being intent on his own duty. Listen thou how perfection is won by him who is intent on his own duty.
 
 **Sounds like:** I keep checking my phone for his call. The silence is killing me at work. / My kids ask why mom isn't coming home. I don't know how to explain. / I can't focus on my thesis. Her absence is louder than the library. / My best friend says I need to move on. I just want her back. / I'm packing his clothes. I can't let go, even though it's been months.
+
+- [ ] the episode really happens in these sections
+- [ ] the dilemma is fair to the story (nothing added)
+- [ ] the linked verses fit
+- [ ] the themes fit
+
+---
+
+## Shakuntala Rejected by Dushmanta in Court
+
+`shakuntala-rejected-dushyanta` · Adi Parva, sections 74 · reviewed: False
+
+**Characters:** Sakuntala, Dushmanta, Bharata, Kanwa, Gautami
+
+**Dilemma:** A person is publicly denied by their partner who refuses to acknowledge their marriage and child, leaving them without support or recognition. The betrayal cuts deep because it comes from someone who once pledged commitment, and the rejection plays out before others who witness the humiliation.
+
+**Themes:** humiliation, betrayal, abandonment, motherhood, identity, justice
+
+**Evidence (verbatim Ganguli):**
+
+- §74: "all that thou sayest is quite unknown to me. I don't know thee. Go withersoever thou choosest"
+
+**Section openings:**
+
+- §74: (Sambhava Parva continued) "Vaisampayana said, 'After Dushmanta had left the asylum having made those promises unto Sakuntala, the latter of tapering thighs brought forth a boy of immeasurable energy. And when the child was three years old, he became in splendour like the blazing fire. And, O Janamejaya, he was possessed of beauty and magnanimity and every accomplishment. And that …
+
+**Linked verses (Besant):**
+
+- 2.3: Yield not to impotence, O Partha! it doth not befit thee. Shake off this paltry faint-heartedness! Stand up, Parantapa!
+- 5.22: The delights that are contact-born, they are verily wombs of pain, for they have beginning and ending, O Kaunteya; not in them may rejoice the wise.
+
+**Sounds like:** My boss knows we're married but HR says no record exists. He's denying everything. / His parents act like I don't exist. He won't correct them or claim our baby. / Classmates saw him introduce me as wife. Now he tells everyone we're nothing. / Our friends watched him promise forever. Now he pretends we never happened. / He signed the papers, held our son, then walked into court and said 'never met her.'
 
 - [ ] the episode really happens in these sections
 - [ ] the dilemma is fair to the story (nothing added)
@@ -1307,6 +1269,38 @@ For each entry, check the boxes against the quotes below (or open the section in
 - 18.31: That by which one understandeth away Right and Wrong and also what ought to be done and what ought not to be done, that Reason, O Pârtha, is passionate.
 
 **Sounds like:** I see my manager's project is doomed, but he keeps asking for encouragement instead of feedback. / My partner refuses to hear that our finances are unsustainable; I’m scared to bring it up. / My roommate keeps ignoring the mess, saying everything's fine, but I know it’s getting out of control. / I need to tell my professor his grading rubric is unfair, yet he says students just need confidence. / My sibling wants to quit their job without considering the risks; I’m torn between honesty and support.
+
+- [ ] the episode really happens in these sections
+- [ ] the dilemma is fair to the story (nothing added)
+- [ ] the linked verses fit
+- [ ] the themes fit
+
+---
+
+## Vikarna Denounces Draupadi's Disrobing in the Assembly
+
+`vikarna-protests-draupadi-disrobing` · Sabha Parva, sections 66 · reviewed: False
+
+**Characters:** Vikarna, Duryodhana, Duhsasana, Draupadi, Bhishma, Drona, Vidura
+
+**Dilemma:** A person witnesses a public humiliation or injustice and feels compelled to speak out, but sees that senior leaders and respected figures remain silent. The dilemma is whether to risk isolation and retaliation by being the lone voice of conscience, or to stay quiet like everyone else.
+
+**Themes:** courage, silence, humiliation, duty, integrity
+
+**Evidence (verbatim Ganguli):**
+
+- §66: "Vikarna the son of Dhritarashtra said--'Ye kings, answer ye the question that hath been asked by Yajnaseni"
+
+**Section openings:**
+
+- §66: Vaisampayana said,--"Intoxicated with pride, the son of Dhritarashtra spake,--'Fie on Kshatta! and casting his eyes upon the Pratikamin in attendance, commanded him, in the midst of all those reverend seniors, saying,--'Go Pratikamin, and bring thou Draupadi hither. Thou hast no fear from the sons of Pandu. It is Vidura alone that raveth in fear. Besides, he never wisheth our prosperity!'" …
+
+**Linked verses (Besant):**
+
+- 2.34: Men will recount thy perpetual dishonour, and, to one highly esteemed, dishonour exceedeth death.
+- 1.28: Deeply moved to pity, thus uttered in sadness: Arjuna said: Seeing these my kinsmen, O Krishna, arrayed, eager to fight,
+
+**Sounds like:** My boss ignored harassment in the meeting; should I speak up alone? / Uncle made a cruel joke at dinner; everyone laughed, I stayed quiet. / Professor dismissed a student's complaint; classmates silent, I'm torn. / Friend posted a hateful comment; group chat quiet, I want to respond. / Partner belittled me in front of friends; they said nothing, I'm scared.
 
 - [ ] the episode really happens in these sections
 - [ ] the dilemma is fair to the story (nothing added)

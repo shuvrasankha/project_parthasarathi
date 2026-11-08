@@ -63,6 +63,15 @@ def upsert_chunks(conn: psycopg.Connection, collection: str, rows: list[Row], em
                 ],
             )
         conn.commit()
+    # unchanged text keeps its embedding, but meta (sections, verses, reviewed) can still change
+    same = [r for r in rows if existing.get(r.id) == content_hash(r.content)]
+    if same:
+        with conn.cursor() as cur:
+            cur.executemany(
+                "update chunks set meta = %s where id = %s and meta is distinct from %s",
+                [(m, r.id, m) for r in same for m in [Jsonb({**r.meta, "content_hash": content_hash(r.content)})]],
+            )
+        conn.commit()
     stats.written = len(todo)
     log.info("%s: read=%d written=%d skipped=%d", collection, stats.read, stats.written, stats.skipped)
     return stats
