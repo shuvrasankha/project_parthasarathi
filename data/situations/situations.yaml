@@ -1777,3 +1777,113 @@
   - Professor dismissed a student's complaint; classmates silent, I'm torn.
   - Friend posted a hateful comment; group chat quiet, I want to respond.
   - Partner belittled me in front of friends; they said nothing, I'm scared.
+- id: bhishma-vow-for-father
+  title: Devavrata Renounces Throne and Takes Vow of Celibacy for His Father's Happiness
+  parva: Adi
+  sections:
+  - 100
+  characters:
+  - Devavrata
+  - Santanu
+  - Satyavati
+  - Ganga
+  dilemma: An adult child gives up their rightful inheritance, career prospects, and chance for a family
+    of their own to clear the way for a parent's remarriage, suppressing personal ambition and desire
+    to secure the parent's happiness.
+  themes:
+  - duty
+  - sacrifice
+  - filial_piety
+  - renunciation
+  - loyalty
+  - self_denial
+  related_verses:
+  - '3.9'
+  - '17.11'
+  reviewed: false
+  evidence:
+  - section: 100
+    quote: O fisherman, from this day I adopt the vow of Brahmacharya (study and meditation in celibacy)
+  everyday:
+  - I'm turning down a promotion so my dad can remarry without financial pressure.
+  - My mom wants to remarry; I'm giving up my inheritance to make it easy.
+  - I'm dropping my master's program to support my father's new marriage plans.
+  - Friends don't get why I'm sacrificing my future for my parent's happiness.
+  - My partner thinks I'm crazy for giving up kids so my dad can remarry.
+- id: drupada-insults-drona
+  title: Drupada Publicly Humiliates His Childhood Friend Drona
+  parva: Adi
+  sections:
+  - 132
+  - 133
+  characters:
+  - Drupada
+  - Drona
+  - Bharadvaja
+  - Prishata
+  dilemma: A person reaches out to a childhood friend in good faith, expecting warmth, but is met with
+    public rejection because the friend now values status and wealth over their shared past. The humiliation
+    comes not just from refusal, but from the friend explicitly declaring that friendship is impossible
+    between unequals.
+  themes:
+  - humiliation
+  - friendship
+  - pride
+  - betrayal
+  - status
+  - abandonment
+  related_verses:
+  - '6.6'
+  - '16.4'
+  reviewed: false
+  evidence:
+  - section: 132
+    quote: the mighty son of Bharadyaja presented himself before Drupada, and addressing that monarch,
+      said, 'Know me for thy friend.' Thus addressed by his friend, the son of Bharadwaja, with a joyous
+      heart, the lord of the Panchalas was ill-able to bear that speech
+  - section: 133
+    quote: Saying this, I approached him confidently as a friend should. But Drupada, laughing in derision
+      cast me off as if I were a vulgar fellow. Addressing me he said, 'Thy intelligence scarcely seemeth
+      to be of a high order'
+  everyday:
+  - I messaged my old college buddy for a referral; he publicly said we're not equals anymore.
+  - My cousin ignored my invite, posting that our families aren't equal now.
+  - I asked my high school friend for study help; he laughed and said we're different leagues.
+  - Childhood friend posted that we can't be friends because I'm not successful enough.
+  - My ex's new partner mocked my background, saying we don't belong in the same circles.
+- id: dhritarashtra-ignores-bhima-poisoning
+  title: Dhritarashtra Overlooks Duryodhana's Attempt to Poison Bhima
+  parva: Adi
+  sections: []
+  characters:
+  - Dhritarashtra
+  - Duryodhana
+  - Bhimasena
+  - Vidura
+  dilemma: A parent consistently ignores or minimizes one child's harmful actions toward another, prioritizing
+    loyalty to the aggressor over the safety and well-being of the victim. This creates an environment
+    where abuse escalates unchecked, leaving the targeted child unprotected and the family dynamic poisoned
+    by silence and complicity.
+  themes:
+  - favoritism
+  - abandonment
+  - rivalry
+  - silence
+  - injustice
+  - parental failure
+  related_verses:
+  - '1.37'
+  - '1.36'
+  - '16.4'
+  reviewed: false
+  needs_check: true
+  check_reason: Adi 128-129 narrate Duryodhana poisoning Bhima, but do not show Dhritarashtra knowing
+    or overlooking it (Vidura advises the Pandavas to stay quiet); the premise may be unsupported
+  evidence: []
+  everyday:
+  - My boss ignores my coworker's sabotage because they're friends. I'm the one getting blamed.
+  - Mom refuses to believe my brother steals from me. Says I'm 'dramatic' when I show proof.
+  - Professor dismisses my lab partner copying my work. Says 'collaboration' even after I reported it
+    twice.
+  - My best friend defends the girl who spread lies about me. Says 'she's going through stuff.'
+  - Partner's sister destroys my things. He laughs it off. 'She's family, let it go.'

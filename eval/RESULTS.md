@@ -77,3 +77,36 @@ and `reviewed` edits never reached the DB. Meta is now updated without re-embedd
 Within noise, as expected for 4 entries.
 
 Deleted `vidura-insomnia-burden-of-knowledge` (wrong character); marked `rejected` in plan.json. 42 situations.
+
+## Linked vs direct verses (2026-11-08)
+
+Judged grade of the verses and passages that make the final cut, by origin (cached grades, v4):
+
+| | dev direct | dev linked | held-out direct | held-out linked |
+|---|---|---|---|---|
+| verses | 58% (n=123) | 56% (n=27) | 45% (n=70) | 50% (n=20) |
+| passages | 57% (n=93) | 64% (n=7) | 55% (n=52) | 56% (n=8) |
+
+Linked items are not worse once cosine ordering has picked them, so the planned filter was not built.
+Verse quality is low across the board; that is a verse-text problem (`meaning_simple` is empty for all 701).
+
+## v5: coverage gaps from the dev set (2026-11-08)
+
+Judging the top-2 situations on every dev query (best grade of the two): 30 fit well, 16 partly, 4 not at all.
+The weak ones cluster on career pressure from parents, grief for a parent, betrayal by a friend and parental
+favouritism. Added 3 dev-derived topics (46-48) and re-ran drafting, which also retried topics 34 and 36:
+
+- topics 34 (Pandu's death) and 36 (Kunti's confession): dropped again by the duplicate guard
+- `bhishma-vow-for-father`: Adi 100, quote found by searching the text and checked with `quote_in`
+- `drupada-insults-drona`: Adi 132-133, verified at drafting
+- `dhritarashtra-ignores-bhima-poisoning`: needs_check. Adi 128-129 narrate the poisoning but not
+  Dhritarashtra knowing about it, so the premise may be unsupported
+
+| | dev v4 | dev v5 | held-out v4 | held-out v5 |
+|---|---|---|---|---|
+| situation hit rate | 64% | 64% | 67% | 70% |
+| verse relevance (judge) | 58% | 58% | 46% | 46% |
+| passage relevance (judge) | 58% | 58% | 55% | 53% |
+
+Dev best-of-2 situation fit: 30/17/3 (was 30/16/4). Within noise; the new entries do surface for the career,
+promise-to-a-parent and favouritism queries, but rarely as the best fit. 45 situations.

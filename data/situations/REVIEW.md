@@ -5,7 +5,42 @@ For each entry, check the boxes against the quotes below (or open the section in
 `data/clean/mb_passages.jsonl`). Then in `situations.yaml` fix or delete the entry and set
 `reviewed: true`. Run `make ingest-situations` when done.
 
-42 entries, 0 reviewed, 0 need a check. Unreviewed and needs_check first.
+45 entries, 0 reviewed, 1 need a check. Unreviewed and needs_check first.
+
+## Dhritarashtra Overlooks Duryodhana's Attempt to Poison Bhima
+
+`dhritarashtra-ignores-bhima-poisoning` · Adi Parva, sections none · reviewed: False
+
+**Needs check:** Adi 128-129 narrate Duryodhana poisoning Bhima, but do not show Dhritarashtra knowing or overlooking it (Vidura advises the Pandavas to stay quiet); the premise may be unsupported
+
+**Characters:** Dhritarashtra, Duryodhana, Bhimasena, Vidura
+
+**Dilemma:** A parent consistently ignores or minimizes one child's harmful actions toward another, prioritizing loyalty to the aggressor over the safety and well-being of the victim. This creates an environment where abuse escalates unchecked, leaving the targeted child unprotected and the family dynamic poisoned by silence and complicity.
+
+**Themes:** favoritism, abandonment, rivalry, silence, injustice, parental failure
+
+**Evidence (verbatim Ganguli):**
+
+- (none)
+
+**Section openings:**
+
+- (none)
+
+**Linked verses (Besant):**
+
+- 1.37: Therefore we should not kill the sons of Dhritarâshtra, our relatives; for how, killing our kinsmen, may we be happy, O Mâdhava?
+- 1.36: Slaying these sons of Dhritarâshtra, what pleasure can be ours, O Janârdana? Killing these desperadoes, sin will but take hold of us.
+- 16.4: Hypocrisy, arrogance and conceit, wrath and also harshness and unwisdom are his who is born, O Pârtha, with demoniacal properties.
+
+**Sounds like:** My boss ignores my coworker's sabotage because they're friends. I'm the one getting blamed. / Mom refuses to believe my brother steals from me. Says I'm 'dramatic' when I show proof. / Professor dismisses my lab partner copying my work. Says 'collaboration' even after I reported it twice. / My best friend defends the girl who spread lies about me. Says 'she's going through stuff.' / Partner's sister destroys my things. He laughs it off. 'She's family, let it go.'
+
+- [ ] the episode really happens in these sections
+- [ ] the dilemma is fair to the story (nothing added)
+- [ ] the linked verses fit
+- [ ] the themes fit
+
+---
 
 ## Amba Vows to Destroy Bhishma After He Rejects Her
 
@@ -289,6 +324,38 @@ For each entry, check the boxes against the quotes below (or open the section in
 
 ---
 
+## Devavrata Renounces Throne and Takes Vow of Celibacy for His Father's Happiness
+
+`bhishma-vow-for-father` · Adi Parva, sections 100 · reviewed: False
+
+**Characters:** Devavrata, Santanu, Satyavati, Ganga
+
+**Dilemma:** An adult child gives up their rightful inheritance, career prospects, and chance for a family of their own to clear the way for a parent's remarriage, suppressing personal ambition and desire to secure the parent's happiness.
+
+**Themes:** duty, sacrifice, filial_piety, renunciation, loyalty, self_denial
+
+**Evidence (verbatim Ganguli):**
+
+- §100: "O fisherman, from this day I adopt the vow of Brahmacharya (study and meditation in celibacy)"
+
+**Section openings:**
+
+- §100: (Sambhava Parva continued ) "Vaisampayana said, 'The monarch Santanu, the most adored of the gods and royal sages, was known in all the worlds for his wisdom, virtues, and truthfulness (of speech). The qualities of self-control, liberality, forgiveness, intelligence, modesty, patience and superior energy ever dwelt in that bull among men, viz., Santanu, that great being endued with these accomplishments …
+
+**Linked verses (Besant):**
+
+- 3.9: The world is bound by action, unless performed for the sake of sacrifice; for that sake, free from attachment, O son of Kuntî, perform thou action.
+- 17.11: The sacrifice which is offered by men without desire for fruit, as enjoined by the ordinances, under the firm belief that sacrifice is a duty, that is pure.
+
+**Sounds like:** I'm turning down a promotion so my dad can remarry without financial pressure. / My mom wants to remarry; I'm giving up my inheritance to make it easy. / I'm dropping my master's program to support my father's new marriage plans. / Friends don't get why I'm sacrificing my future for my parent's happiness. / My partner thinks I'm crazy for giving up kids so my dad can remarry.
+
+- [ ] the episode really happens in these sections
+- [ ] the dilemma is fair to the story (nothing added)
+- [ ] the linked verses fit
+- [ ] the themes fit
+
+---
+
 ## Dhritarashtra Permits the Lac House Plot
 
 `dhritarashtra-lac-house` · Adi Parva, sections 61, 95 · reviewed: False
@@ -456,6 +523,40 @@ For each entry, check the boxes against the quotes below (or open the section in
 - 18.34: But the firmness, O Arjuna, by which, from attachment desirous of fruit, one holdeth fast duty, desire and wealth, that firmness, O Pârtha, is passionate.
 
 **Sounds like:** My boss wants me to sabotage a rival to save his own job. I feel trapped. / My dad pressures me to sue my sister for money. It feels wrong and selfish. / My professor is pushing me to cheat to boost his department's ranking. I'm scared. / My best friend is pushing me to ghost my partner to prove a point. I hate it. / My partner wants me to humiliate their ex to win an argument. I don't want to.
+
+- [ ] the episode really happens in these sections
+- [ ] the dilemma is fair to the story (nothing added)
+- [ ] the linked verses fit
+- [ ] the themes fit
+
+---
+
+## Drupada Publicly Humiliates His Childhood Friend Drona
+
+`drupada-insults-drona` · Adi Parva, sections 132, 133 · reviewed: False
+
+**Characters:** Drupada, Drona, Bharadvaja, Prishata
+
+**Dilemma:** A person reaches out to a childhood friend in good faith, expecting warmth, but is met with public rejection because the friend now values status and wealth over their shared past. The humiliation comes not just from refusal, but from the friend explicitly declaring that friendship is impossible between unequals.
+
+**Themes:** humiliation, friendship, pride, betrayal, status, abandonment
+
+**Evidence (verbatim Ganguli):**
+
+- §132: "the mighty son of Bharadyaja presented himself before Drupada, and addressing that monarch, said, 'Know me for thy friend.' Thus addressed by his friend, the son of Bharadwaja, with a joyous heart, the lord of the Panchalas was ill-able to bear that speech"
+- §133: "Saying this, I approached him confidently as a friend should. But Drupada, laughing in derision cast me off as if I were a vulgar fellow. Addressing me he said, 'Thy intelligence scarcely seemeth to be of a high order'"
+
+**Section openings:**
+
+- §132: (Sambhava Parva continued) "Vaisampayana said, 'Then, O king, the mighty son of Bharadyaja presented himself before Drupada, and addressing that monarch, said, 'Know me for thy friend.' Thus addressed by his friend, the son of Bharadwaja, with a joyous heart, the lord of the Panchalas was ill-able to bear that speech. The king, intoxicated with the pride of wealth, contracted …
+- §133: (Sambhava Parva continued) "Vaisampayana said, 'Arrived at Hastinapura, that best of Brahmanas, the son of Bharadwaja, continued to live privately in the house of Gautama (Kripa). His mighty son (Aswatthaman) at intervals of Kripa's teaching, used to give the sons of Kunti lessons in the use of arms. But as yet none knew of Aswatthaman's prowess. "Drona had thus lived …
+
+**Linked verses (Besant):**
+
+- 6.6: The Self is the friend of the self of him in whom the self by the Self is vanquished; but to the unsubdued self the Self verily becometh hostile as an enemy.
+- 16.4: Hypocrisy, arrogance and conceit, wrath and also harshness and unwisdom are his who is born, O Pârtha, with demoniacal properties.
+
+**Sounds like:** I messaged my old college buddy for a referral; he publicly said we're not equals anymore. / My cousin ignored my invite, posting that our families aren't equal now. / I asked my high school friend for study help; he laughed and said we're different leagues. / Childhood friend posted that we can't be friends because I'm not successful enough. / My ex's new partner mocked my background, saying we don't belong in the same circles.
 
 - [ ] the episode really happens in these sections
 - [ ] the dilemma is fair to the story (nothing added)

@@ -77,6 +77,10 @@ TOPICS = [
     "being ignored or sidelined by your own children in old age",
     "temptation: being offered something you want that you know is wrong",
     "finding the courage to speak up when everyone else stays quiet",
+    # 46-48: gaps found by judging situation fit on the dev set (2026-11-08); not from held-out
+    "giving up your own wishes or future to fulfil a parent's wish",
+    "a close friend turns against you or forgets your old friendship",
+    "parents openly favouring one child over the others",
 ]
 
 

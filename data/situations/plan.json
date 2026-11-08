@@ -1455,5 +1455,95 @@
       71,
       72
     ]
+  },
+  {
+    "id": "bhishma-vow-for-father",
+    "topic_number": 46,
+    "title": "Devavrata Renounces Throne and Takes Vow of Celibacy for His Father's Happiness",
+    "parva": "adi",
+    "characters": [
+      "Devavrata",
+      "Santanu",
+      "Satyavati",
+      "Ganga"
+    ],
+    "focus": "A son sacrifices his own future and happiness to fulfill his father's desire for a new wife.",
+    "search_terms": [
+      "Devavrata",
+      "Santanu",
+      "Satyavati",
+      "Ganga",
+      "Bhishma",
+      "Kuru",
+      "prince",
+      "vow"
+    ],
+    "sections": [
+      95,
+      96,
+      97,
+      98,
+      99,
+      100
+    ]
+  },
+  {
+    "id": "drupada-insults-drona",
+    "topic_number": 47,
+    "title": "Drupada Publicly Humiliates His Childhood Friend Drona",
+    "parva": "adi",
+    "characters": [
+      "Drupada",
+      "Drona",
+      "Bharadvaja",
+      "Prishata"
+    ],
+    "focus": "A childhood friendship dissolves when one friend gains power and refuses to acknowledge the other in need.",
+    "search_terms": [
+      "Drupada",
+      "Drona",
+      "Bharadvaja",
+      "Prishata",
+      "Panchala",
+      "friend",
+      "equal",
+      "king"
+    ],
+    "sections": [
+      135,
+      136,
+      137,
+      138
+    ]
+  },
+  {
+    "id": "dhritarashtra-ignores-bhima-poisoning",
+    "topic_number": 48,
+    "title": "Dhritarashtra Overlooks Duryodhana's Attempt to Poison Bhima",
+    "parva": "adi",
+    "characters": [
+      "Dhritarashtra",
+      "Duryodhana",
+      "Bhimasena",
+      "Vidura"
+    ],
+    "focus": "A parent's blind favoritism leads them to excuse a child's violent wrongdoing against a sibling.",
+    "search_terms": [
+      "Dhritarashtra",
+      "Duryodhana",
+      "Bhimasena",
+      "Vidura",
+      "poison",
+      "Ganga",
+      "Naga",
+      "Kaurava"
+    ],
+    "sections": [
+      85,
+      86,
+      87,
+      88,
+      89
+    ]
   }
 ]
