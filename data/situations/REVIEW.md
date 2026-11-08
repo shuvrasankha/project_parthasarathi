@@ -5,42 +5,7 @@ For each entry, check the boxes against the quotes below (or open the section in
 `data/clean/mb_passages.jsonl`). Then in `situations.yaml` fix or delete the entry and set
 `reviewed: true`. Run `make ingest-situations` when done.
 
-43 entries, 0 reviewed, 1 need a check. Unreviewed and needs_check first.
-
-## Vidura's Sleepless Agony Over the Coming War
-
-`vidura-insomnia-burden-of-knowledge` · Udyoga Parva, sections none · reviewed: False
-
-**Needs check:** no candidate section narrates the episode (looked at [33, 48, 50, 29, 26, 51, 36, 60, 34])
-
-**Characters:** Vidura, Sanjaya
-
-**Dilemma:** A trusted advisor sees disaster approaching clearly but cannot persuade the decision-makers to avert it, and now endures the exhausting, sleepless weight of knowing the catastrophe is inevitable while still feeling responsible for those who will suffer.
-
-**Themes:** burnout, foresight, helplessness, duty, grief, fear
-
-**Evidence (verbatim Ganguli):**
-
-- (none)
-
-**Section openings:**
-
-- (none)
-
-**Linked verses (Besant):**
-
-- 1.30: Gândîva slips from my hand, and my skin burns all over, I am not able to stand, my mind is whirling,
-- 1.31: And I see adverse omens, O Keshava. Nor do I foresee any advantage from slaying kinsmen in battle.
-- 2.63: From anger proceedeth delusion; from delusion confused memory; from confused memory the destruction of Reason; from destruction of Reason he perishes.
-
-**Sounds like:** I've warned management about the project's fatal flaw, but they won't listen. I'm losing sleep over the team's fallout. / My parents refuse to plan for their care, and I'm terrified they'll suffer. I feel helpless. / My research shows the policy will harm students, but the committee ignores me. I'm exhausted fighting alone. / I see my friend heading into a toxic relationship, but she won't hear my concerns. It's killing me. / My partner dismisses my warnings about our finances, and I'm dreading the inevitable crash. I can't sleep.
-
-- [ ] the episode really happens in these sections
-- [ ] the dilemma is fair to the story (nothing added)
-- [ ] the linked verses fit
-- [ ] the themes fit
-
----
+42 entries, 0 reviewed, 0 need a check. Unreviewed and needs_check first.
 
 ## Amba Vows to Destroy Bhishma After He Rejects Her
 

@@ -279,7 +279,7 @@ def draft(n: int | None = None) -> int:
     sections, verses = load_sections(), load_verses()
     entries = load_yaml()
     done = {e["id"] for e in entries}
-    todo = [it for it in plan(n) if it["id"] not in done]
+    todo = [it for it in plan(n) if it["id"] not in done and not it.get("rejected")]  # rejected: removed after review
     log.info("%d already in %s, drafting %d", len(done), YAML_PATH, len(todo))
     embedder = get_embedder()
     with connect() as conn:

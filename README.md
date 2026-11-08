@@ -69,7 +69,7 @@ All in one `chunks` table (`migrations/001_init.sql`), with `collection` set to:
 - **`mb_passages`** (9,891). Id `udyoga-144-1` (parva-section-chunk). Sections over ~600 tokens are
   split on paragraphs (sentences as a fallback) into ~500-token chunks with ~80 tokens of overlap,
   never mid-sentence. Bhishma 25–42 (the Gita inside the Mahabharata) carry `contains_gita: true`.
-- **`situations`** (43 drafts). Episodes framed as modern dilemmas, in
+- **`situations`** (42 drafts). Episodes framed as modern dilemmas, in
   `data/situations/situations.yaml`. Embedded text: `title` + `dilemma` + `themes` + `everyday`
   (5 modern first-person phrasings of the dilemma, LLM-written, no story content). Themes come from
   the controlled vocabulary in `data/themes.yaml`.
@@ -90,7 +90,9 @@ All in one `chunks` table (`migrations/001_init.sql`), with `collection` set to:
 Add a topic to `TOPICS` in `rag/situations.py` and re-run to draft just that topic. Nemotron
 (`LLM_PROVIDER=nvidia,openrouter`) drafted far better than Groq's gpt-oss in testing.
 
-Review each entry by hand, set `reviewed: true`, then `make ingest-situations`.
+`make review-sheet` writes `data/situations/REVIEW.md` for checking each draft against its sources. Review each
+entry by hand, set `reviewed: true` (or delete it, and add `"rejected"` to its `plan.json` item so it is
+not redrafted), then `make ingest-situations`.
 
 ## Retrieval (`rag/search.py`)
 

@@ -75,3 +75,5 @@ and `reviewed` edits never reached the DB. Meta is now updated without re-embedd
 | passage relevance (judge) | 56% | 58% | 55% | 55% |
 
 Within noise, as expected for 4 entries.
+
+Deleted `vidura-insomnia-burden-of-knowledge` (wrong character); marked `rejected` in plan.json. 42 situations.
