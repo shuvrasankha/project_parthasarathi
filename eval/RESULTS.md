@@ -53,7 +53,7 @@ the rewrite call fails. Same 43 situations, same judge.
 | verse relevance (judge) | 58% | 29% | 45% | 27% |
 | passage relevance (judge) | 56% | 44% | 55% | 43% |
 
-The rewrite roughly doubles verse relevance. Without it, non-English messages suffer most (held-out Hinglish
-verses 27%, Bengali passages 8%; English passages hold up). The fallback works but is a big step down, so the
+The rewrite roughly doubles verse relevance. Without it, non-English messages suffer most (held-out Bengali
+verses 6%, Hinglish and Banglish passages 10% and 8%; English passages hold up at 57%; n is 3-5 per language). The fallback works but is a big step down, so the
 rewrite should stay; it needs a reliable LLM, not necessarily a fast or large one.
 Reports: `report_norewrite_{dev,heldout}.md`.
