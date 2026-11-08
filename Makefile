@@ -1,4 +1,4 @@
-.PHONY: db-up db-down db-migrate smoke test ingest-gita ingest-mb draft-situations ingest-situations ingest-all search eval eval-heldout
+.PHONY: db-up db-down db-migrate smoke test ingest-gita ingest-mb draft-situations review-sheet ingest-situations ingest-all search eval eval-heldout
 
 PSQL = docker compose exec -T db psql -U krishna -d krishna -v ON_ERROR_STOP=1
 
@@ -20,6 +20,9 @@ ingest-mb:        ## Ganguli Mahabharata: download, validate, chunk, upsert (~1 
 
 draft-situations: ## LLM-draft data/situations/situations.yaml (only ids not already there); quotes checked against Ganguli
 	uv run python -m rag.situations
+
+review-sheet: ## write data/situations/REVIEW.md for checking drafts against the sources
+	uv run python -m rag.situations --review-sheet
 
 ingest-situations: ## validate situations.yaml and upsert it
 	uv run python -m rag.ingest situations

@@ -41,3 +41,19 @@ entries vs. only the original 29 (one-off script, same cached rewrites):
 No overall degradation (difference is within noise). The top 2 changed for 14 of 30 queries: better
 for 4 (h10, h14, h20, h25), worse for 2 (h02, h06: Draupadi's marital jealousy and Vikarna displacing
 envy/humiliation matches), roughly even for the rest.
+
+## Without the LLM rewrite (2026-11-08)
+
+`run_eval.py --no-rewrite`: search with the raw message and no themes, which is what `retrieve()` does when
+the rewrite call fails. Same 43 situations, same judge.
+
+| | dev v3 | dev no rewrite | held-out v3 | held-out no rewrite |
+|---|---|---|---|---|
+| situation hit rate | 64% | 36% | 67% | 59% |
+| verse relevance (judge) | 58% | 29% | 45% | 27% |
+| passage relevance (judge) | 56% | 44% | 55% | 43% |
+
+The rewrite roughly doubles verse relevance. Without it, non-English messages suffer most (held-out Hinglish
+verses 27%, Bengali passages 8%; English passages hold up). The fallback works but is a big step down, so the
+rewrite should stay; it needs a reliable LLM, not necessarily a fast or large one.
+Reports: `report_norewrite_{dev,heldout}.md`.

@@ -89,6 +89,7 @@ def main() -> None:
     ap.add_argument("--queries", default="queries.yaml", help="file in eval/ (queries.yaml = dev, heldout.yaml)")
     ap.add_argument("--out", default=None, help="report file in eval/ (default report.md / report_heldout.md)")
     ap.add_argument("--fresh", action="store_true", help="ignore cached rewrites")
+    ap.add_argument("--no-rewrite", action="store_true", help="search with the raw message, no LLM rewrite")
     ap.add_argument("--judge", action="store_true", help="LLM-grade verse/passage relevance (0-2)")
     args = ap.parse_args()
     out_name = args.out or ("report.md" if args.queries == "queries.yaml" else f"report_{Path(args.queries).stem}.md")
@@ -99,7 +100,8 @@ def main() -> None:
     rows, by_lang = [], defaultdict(list)
     t0 = time.time()
     for q in queries:
-        r = retrieve(q["message"], rewritten=cached_rewrite(q["message"], cache, args.fresh))
+        rw = (q["message"], []) if args.no_rewrite else cached_rewrite(q["message"], cache, args.fresh)
+        r = retrieve(q["message"], rewritten=rw)
         sit_ids = [h.id for h in r.situations]
         sit_themes = [t for h in r.situations for t in h.meta.get("themes", [])]
         verse_themes = [t for h in r.verses for t in h.meta.get("themes", [])]
@@ -124,7 +126,7 @@ def main() -> None:
         f"- date: {date.today()}  set: {args.queries}  queries: {len(rows)}  runtime: {elapsed:.0f}s",
         f"- LLM chain: {settings.llm_provider} (groq: {settings.groq_models}; openrouter: {settings.openrouter_models};"
         f" nvidia: {settings.nvidia_model}; anthropic: {settings.rewrite_model}), rerank: {settings.rerank_enabled},"
-        f" linked_first: {settings.linked_first}, fts_text: {settings.fts_text}",
+        f" linked_first: {settings.linked_first}, fts_text: {settings.fts_text}, rewrite: {not args.no_rewrite}",
         "- theme match = mapped to data/themes.yaml, then equal or substring", "",
         "## Summary", "",
         "| metric | all | " + " | ".join(by_lang) + " |",
