@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+.pytest_cache/
+.env
+data/raw/
+*.log
+eval/.rewrite_cache.json
+eval/.judge_cache.json
+.DS_Store

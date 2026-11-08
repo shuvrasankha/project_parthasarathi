@@ -1,0 +1,1808 @@
+- id: arjuna-kurukshetra-dilemma
+  title: Arjuna refuses to fight his kinsmen at Kurukshetra
+  parva: Bhishma
+  sections:
+  - 25
+  - 26
+  characters:
+  - Partha
+  - Kesava
+  - Bhishma
+  - Drona
+  - Kripa
+  dilemma: A professional faces a high-stakes assignment that requires opposing or harming mentors, family
+    members, or longtime colleagues they deeply respect and love. The obligation to perform their role
+    clashes violently with personal loyalty and affection, leaving them paralyzed and physically sick
+    with dread at the prospect of causing harm to those who shaped them.
+  themes:
+  - duty
+  - loyalty
+  - grief
+  - compassion
+  - family
+  - paralysis
+  related_verses:
+  - '1.28'
+  - '2.4'
+  - '3.1'
+  reviewed: false
+  evidence:
+  - section: 25
+    quote: Beholding all those kinsmen standing there, the son of Kunti, possessed by excessive pity,
+      despondingly said
+  - section: 26
+    quote: How, O slayer of Madhu, can I with arrows contend in battle against Bhishma and Drona
+  everyday:
+  - I’m being asked to fire my mentor, and I’m terrified of hurting him.
+  - My sister wants me to testify against our parents in court, and I feel torn.
+  - I have to present evidence that could ruin my thesis advisor’s reputation, and I’m paralyzed.
+  - My best friend is the target of a project I must lead, and I can’t imagine betraying him.
+  - My partner wants me to expose my ex’s wrongdoing at work, and I’m scared of destroying both lives.
+- id: vidura-truth-dhritarashtra
+  title: Vidura speaks unwelcome truth to Dhritarashtra
+  parva: Udyoga
+  sections:
+  - 34
+  - 35
+  - 36
+  - 37
+  - 38
+  - 39
+  characters:
+  - Vidura
+  - Dhritarashtra
+  - Sanjaya
+  - Kesava
+  dilemma: A trusted advisor sees a leader heading toward catastrophe due to blind attachment, but the
+    leader seeks comfort rather than correction. The advisor must decide whether to deliver painful truths
+    that may be rejected, or remain silent and watch disaster unfold.
+  themes:
+  - loyalty
+  - duty
+  - truth
+  - leadership
+  - blindness
+  - disaster
+  related_verses:
+  - '18.34'
+  - '18.31'
+  reviewed: false
+  evidence:
+  - section: 34
+    quote: Even if unasked, one should speak truly, whether his words be good or bad, hateful or pleasing,
+      unto him whose defeat one doth not wish.
+  - section: 35
+    quote: Ablution in all the holy places and kindness to all creatures,--these two are equal. Perhaps,
+      kindness to all creatures surpasseth the former.
+  - section: 36
+    quote: These, however, are the indications of a bad man, viz., incapacity to be controlled; liability
+      to be afflicted by dangers; proneness to give way to wrath,
+  - section: 37
+    quote: he who, born in a high family, perpetrateth an improper deed; he who being weak always wageth
+      hostilities with one that is powerful;
+  - section: 38
+    quote: He that never giveth way to anger, he that is above grief, he that is no longer in need of
+      friendship and quarrels
+  - section: 39
+    quote: I told thee,--thou shouldst abandon this one son, for by abandoning him thou wouldst secure
+      the prosperity of thy hundred sons
+  everyday:
+  - I see my manager's project is doomed, but he keeps asking for encouragement instead of feedback.
+  - My partner refuses to hear that our finances are unsustainable; I’m scared to bring it up.
+  - My roommate keeps ignoring the mess, saying everything's fine, but I know it’s getting out of control.
+  - I need to tell my professor his grading rubric is unfair, yet he says students just need confidence.
+  - My sibling wants to quit their job without considering the risks; I’m torn between honesty and support.
+- id: aswatthaman-night-massacre
+  title: Aswatthaman slaughters the sleeping Pandava army
+  parva: Sauptika
+  sections:
+  - 8
+  - 9
+  - 10
+  characters:
+  - Aswatthaman
+  - Kripa
+  - Kritavarman
+  - Drona
+  - Draupadi
+  dilemma: A person entrusted with protection or leadership lets overwhelming grief and rage drive them
+    to attack defenseless people who trusted them, destroying their own reputation and inner integrity
+    in the process.
+  themes:
+  - anger
+  - betrayal
+  - honor
+  - grief
+  - revenge
+  - humiliation
+  related_verses:
+  - '2.63'
+  - '16.18'
+  reviewed: false
+  evidence:
+  - section: 8
+    quote: Ashvatthama cut off the legs of some, and the hips of others, and pierced some in their flanks
+  - section: 9
+    quote: While buried in sleep, the men and animals in their camp have all been slain
+  - section: 10
+    quote: During the night, O king, thy camp has been exterminated by the cruel Kritavarma, and Kripa
+  everyday:
+  - I was supposed to lead the project, but my anger made me snap at the new interns.
+  - I let my grief drive me to yell at my kids when they just needed comfort.
+  - I was a tutor, but I snapped at a struggling student out of frustration.
+  - I betrayed my friend’s trust by lashing out when I was overwhelmed with sadness.
+  - I let my anger ruin our date, hurting my partner who just wanted support.
+- id: gandhari-lament-sons
+  title: Gandhari mourns her hundred slain sons
+  parva: Stri
+  sections:
+  - 10
+  - 14
+  - 15
+  - 16
+  characters:
+  - Gandhari
+  - Dhritarashtra
+  - Yudhishthira
+  - Kunti
+  - Vyasa
+  dilemma: A parent's devastating loss of children shatters their lifelong composure and principles, unleashing
+    anger that threatens to harm others despite their intention to remain virtuous. The intensity of grief
+    makes it impossible to maintain the self-restraint that once defined their character.
+  themes:
+  - grief
+  - motherhood
+  - anger
+  - curse
+  - austerity
+  - loss
+  related_verses:
+  - '1.28'
+  - '1.31'
+  - '16.16'
+  reviewed: false
+  evidence:
+  - section: 10
+    quote: Gandhari, afflicted with grief on account of the death of her sons, accompanied by Kunti
+  - section: 14
+    quote: In consequence, however, of grief for the death of my sons, my heart is very much agitated
+  - section: 15
+    quote: Unvanquished by anyone, thou hast slain a hundred sons of this old man. Oh, why didst thou
+      not spare
+  - section: 16
+    quote: Piteous were the lamentations in which that dame then indulged. Endued with great intelligence,
+      the Kuru dame saw
+  everyday:
+  - I lost my child today, and I'm terrified I'll lash out at my team.
+  - My daughter passed away; I can't stop my anger spilling onto my husband.
+  - My baby died, and I keep snapping at my professor and classmates.
+  - After my child's death, I feel like pushing my friends away with my rage.
+  - I just lost my son, and I'm scared I'll hurt my girlfriend with my grief.
+- id: karna-envy-arjuna-tournament
+  title: Karna challenges Arjuna at the princes' tournament
+  parva: Adi
+  sections:
+  - 136
+  - 137
+  - 138
+  characters:
+  - Radheya
+  - Dhananjaya
+  - Drona
+  - Bhishma
+  - Kripa
+  - Duryodhana
+  dilemma: When a rival publicly matches or surpasses your hard-won skill in the very arena where you
+    sought recognition, the sting of being upstaged can harden into a defining grudge that warps your
+    decisions for years.
+  themes:
+  - envy
+  - rivalry
+  - humiliation
+  - pride
+  - revenge
+  - destiny
+  related_verses:
+  - '18.34'
+  reviewed: false
+  evidence:
+  - section: 136
+    quote: With thy permission, O king, let them now show their proficiency.
+  - section: 137
+    quote: the youthful Phalguna, equipped with the finger protector (gauntlet) and his quiver full of
+      shafts
+  - section: 138
+    quote: O Partha, I shall perform feats before this gazing multitude; excelling all thou hast performed!
+  everyday:
+  - I just got passed over for a promotion after my coworker nailed the same project I spent months on.
+  - My sister just won the family cooking contest I’ve been practicing for years, and I feel crushed.
+  - My classmate scored higher on the final exam I studied for weeks, and now I doubt my abilities.
+  - My best friend just got praised for the idea I originally suggested, and I’m feeling left out.
+  - My partner was complimented on a skill I taught them, and now I’m jealous and insecure.
+- id: draupadi-disrobing-sabha
+  title: Draupadi is dragged into the assembly and insulted
+  parva: Sabha
+  sections:
+  - 66
+  - 68
+  - 71
+  - 80
+  characters:
+  - Draupadi
+  - Dussasana
+  - Duryodhana
+  - Karna
+  - Bhishma
+  - Drona
+  - Vidura
+  - Kesava
+  dilemma: A person is publicly degraded and stripped of dignity while those with authority and influence
+    watch in silence, constrained by fear or self-interest. The victim's appeals for justice go unanswered
+    because the system protects the powerful, leaving the targeted individual isolated and exposed.
+  themes:
+  - humiliation
+  - silence
+  - injustice
+  - self-worth
+  related_verses:
+  - '2.34'
+  - '17.6'
+  reviewed: false
+  evidence:
+  - section: 66
+    quote: forcibly seizing Draupadi's attire before the eyes of all, began to drag it off her person.
+  - section: 68
+    quote: Dragged with greater force than before, the afflicted and helpless Draupadi, undeserving of
+      such treatment, falling down
+  - section: 71
+    quote: When the sons of both Pandu and Dhritarashtra were excited with wrath, this Draupadi became
+      unto the sons of Pandu as their salvation.
+  - section: 80
+    quote: the wedded wife of the Pandavas, endued with beauty and youth, dragged into the court, set
+      up frightful wail
+  everyday:
+  - My boss publicly criticized my report in the meeting, and HR just ignored my complaints.
+  - During dinner, my sister mocked my career choices, and our parents pretended nothing was wrong.
+  - The professor ridiculed my thesis in front of the class, and the department refused to intervene.
+  - My best friend spread humiliating rumors about me at the party, and nobody defended me.
+  - My partner called me worthless in front of friends, and I feel completely alone.
+- id: silence-of-elders-udyoga
+  title: Krishna Rebukes the Silent Elders in the Kaurava Court
+  parva: Udyoga
+  sections:
+  - 131
+  characters:
+  - Kesava
+  - Bhishma
+  - Drona
+  - Kripa
+  - Duryodhana
+  - Dhritarashtra
+  dilemma: You see respected leaders stay silent while clear wrongdoing occurs, and you feel the burden
+    of being the only one willing to name their silence as complicity. Speaking up risks your standing,
+    but staying quiet makes you part of the problem.
+  themes:
+  - silence
+  - justice
+  - duty
+  - courage
+  - leadership
+  related_verses:
+  - '14.13'
+  - '14.9'
+  reviewed: false
+  evidence:
+  - section: 131
+    quote: Ye have yourselves witnessed all that hath happened in the assembly of the Kurus
+  everyday:
+  - I see my boss ignore the bullying, but speaking up might cost me my promotion.
+  - My parents stay silent about my sibling's abuse, and I fear being labeled a troublemaker if I intervene.
+  - Professors aren't addressing cheating in class, and I'm scared my classmates will ostracize me if
+    I report it.
+  - My friends are covering up a lie, and I worry they'll think I'm disloyal if I call them out.
+  - My partner ignores my concerns about their cheating, and I feel stuck between confronting them and
+    losing the relationship.
+- id: pandavas-choose-disguises-virata
+  title: The Pandavas Adopt Humble Disguises in Virata's Court
+  parva: Virata
+  sections:
+  - 7
+  - 8
+  - 9
+  - 10
+  - 13
+  - 19
+  - 44
+  - 71
+  characters:
+  - Yudhishthira
+  - Bhima
+  - Partha
+  - Nakula
+  - Sahadeva
+  - Draupadi
+  - Virata
+  dilemma: You must hide your true identity and accept work far below your capabilities, enduring the
+    daily indignity of being treated as a subordinate, because revealing yourself would jeopardize a larger
+    commitment that depends on your remaining unknown.
+  themes:
+  - duty
+  - humiliation
+  - concealment
+  - sacrifice
+  - loyalty
+  - patience
+  related_verses:
+  - '18.44'
+  - '9.32'
+  - '2.45'
+  reviewed: false
+  evidence:
+  - section: 7
+    quote: My name is Kanka, and I am a Brahmana belonging to the family known by the name of Vaiyaghra.
+  - section: 8
+    quote: I am a cook, Vallava by name. I am skilled in dressing dishes. Do thou employ me in the kitchen!
+  - section: 9
+    quote: I wander about alone, earning good food and dress; and as long as I get these, I continue to
+      live
+  - section: 10
+    quote: I am a Vaisya, Arishtanemi by name. I was employed as a cowherd in the service of those bulls
+  - section: 13
+    quote: Yudhishthira, as courtier made himself agreeable to Virata and his sons as also to all the
+      Matsyas.
+  - section: 19
+    quote: beholding the youngest of you all, Sahadeva, superintending the kine, in the guise of a cowherd,
+      I grow pale.
+  - section: 44
+    quote: Thy father's courtier is Yudhishthira and thy father's cook Vallava is Bhimasena, the groom
+      of horses is Nakula
+  - section: 71
+    quote: Even this one, O king, who is called Vallava and is thy cook, is that Bhima of mighty arms
+  everyday:
+  - I’m stuck doing entry‑level tasks even though I’m overqualified, but I can’t reveal my real role.
+  - I’m pretending to be the clueless sibling so my parents don’t suspect my secret project.
+  - I’m taking a basic class to hide my scholarship, fearing it would ruin my research plan.
+  - I’m acting like I don’t know anything about tech to keep my startup idea hidden from friends.
+  - I’m letting my partner think I’m just a regular employee, even though I’m leading a major project.
+- id: karna-refuses-bhishma-command
+  title: Karna Refuses to Fight Under Bhishma After Being Called Half-Ratha
+  parva: Udyoga
+  sections:
+  - 157
+  - 169
+  characters:
+  - Radheya
+  - Bhishma
+  - Duryodhana
+  - Karna
+  dilemma: A skilled professional withholds their crucial contribution from a high-stakes team effort
+    because they feel publicly slighted by the leadership, even though the project desperately needs their
+    expertise and the collective cause suffers for their absence.
+  themes:
+  - pride
+  - duty
+  - humiliation
+  - loyalty
+  - envy
+  - refusal
+  related_verses:
+  - '2.3'
+  - '1.8'
+  reviewed: false
+  evidence:
+  - section: 157
+    quote: Karna said, 'As long as Ganga's son liveth, O king, I shall never fight. After Bhishma is slain,
+      I shall fight with the wielder of Gandiva.'
+  - section: 169
+    quote: I will not, therefore, O king, fight as long as Ganga's son liveth! After Bhishma, however,
+      hath been laid low, I will fight with all the Maharathas of the enemy united together!
+  everyday:
+  - I’m refusing to finish the report after my manager dismissed my idea in the meeting.
+  - I won’t help plan Mom’s birthday because she ignored my suggestions last week.
+  - I’m skipping the group project presentation after the professor publicly criticized my research.
+  - I’m not joining the charity run because my friend brushed off my fundraising ideas.
+  - I’m holding back my support for his startup after he dismissed my advice in front of investors.
+- id: bhima-spares-jayadratha
+  title: Bhima Spares Jayadratha at Yudhishthira's Plea After Draupadi's Abduction
+  parva: Vana
+  sections:
+  - 269
+  - 270
+  characters:
+  - Bhima
+  - Jayadratha
+  - Yudhishthira
+  - Dussala
+  - Draupadi
+  dilemma: You are furious at someone who harmed your loved one and want them dead, but a respected sibling
+    or leader insists you spare them for the sake of family ties and principle. You must swallow your
+    rage and choose a humiliating punishment over execution, knowing the perpetrator lives.
+  themes:
+  - anger
+  - forgiveness
+  - family
+  - humiliation
+  - self-control
+  - duty
+  related_verses:
+  - '1.36'
+  reviewed: false
+  evidence:
+  - section: 269
+    quote: remembering (our sister) Dussala and the celebrated Gandhari, thou shouldst not slay the king
+      of Sindhu
+  - section: 270
+    quote: on this condition alone, I will pardon thee thy life!
+  everyday:
+  - My coworker sabotaged my sister's project, I want them fired, but my manager says just a warning.
+  - My brother stole Mom's savings; I crave prison time, but Dad insists on a small restitution plan.
+  - A classmate cheated on my friend's exam; I want them expelled, but the professor only gives a failing
+    grade.
+  - My best friend spread rumors about my partner; I want them cut off, but our group says an apology.
+  - Boyfriend cheated on my sister; I want him gone, but mom says he should stay and do chores.
+- id: bhima-vows-revenge
+  title: Bhima Swears Terrible Vows of Revenge
+  parva: Sabha
+  sections:
+  - 70
+  - 76
+  characters:
+  - Bhima
+  - Vrikodara
+  - Duryodhana
+  - Duhsasana
+  - Draupadi
+  - Yudhishthira
+  dilemma: A person suffers a devastating public humiliation of their spouse and the enslavement of their
+    family, feeling powerless to stop it in the moment. They respond by making fierce, specific vows of
+    violent retribution that will dictate their actions and consume their focus for years to come.
+  themes:
+  - humiliation
+  - revenge
+  - vow
+  - anger
+  - family
+  - duty
+  related_verses:
+  - '2.34'
+  - '3.36'
+  reviewed: false
+  evidence:
+  - section: 76
+    quote: I will slay Duryodhana, and Dhananjaya will slay Karna, and Sahadeva will slay Sakuni that
+      gambler with dice.
+  - section: 70
+    quote: Let not Vrikodara attain to the regions, obtained by his ancestors, if he doth not break that
+      thigh of thine in the great conflict.
+  everyday:
+  - My boss humiliated me in front of everyone. I swear I will destroy his career.
+  - My partner cheated publicly. I am going to make them pay for every single second.
+  - My family disowned me at dinner. I will never forgive them and I will make them regret it.
+  - My best friend betrayed my trust. I am going to expose every secret they have.
+  - My ex posted my private photos. I will find them and make sure they suffer.
+- id: kunti-reveals-karna
+  title: Kunti Reveals Karna's Birth to Him
+  parva: Udyoga
+  sections:
+  - 146
+  characters:
+  - Kunti
+  - Pritha
+  - Karna
+  - Radheya
+  - Suta's son
+  dilemma: A person learns late in life that a biological parent abandoned them at birth and now seeks
+    acknowledgment, but they feel deeper loyalty to the family that actually raised them. They resent
+    the parent's sudden claim after decades of absence and refuse to betray the bonds that sustained them.
+  themes:
+  - loyalty
+  - abandonment
+  - identity
+  - duty
+  - resentment
+  - family
+  related_verses:
+  - '18.48'
+  - '2.14'
+  reviewed: false
+  evidence:
+  - section: 146
+    quote: Though, thus addressed by his mother, and by also his father Surya himself, Karna's heart did
+      not yet waver, for he was firmly devoted to truth.
+  everyday:
+  - My bio dad showed up at my office. I can't tell my team I'm leaving to deal with this.
+  - I raised my sister alone. Now my birth mom wants a relationship. I just want her to leave.
+  - I'm failing my thesis because I'm angry at the father who abandoned me twenty years ago.
+  - My best friend is my bio brother. I can't keep this secret from him anymore, but I'm scared.
+  - My partner doesn't know my birth parent is alive. I don't want to betray the family that saved me.
+- id: yudhishthira-dice-game
+  title: Yudhishthira Gambles Away Everything
+  parva: Sabha
+  sections:
+  - 58
+  - 59
+  - 60
+  - 64
+  - 66
+  - 70
+  characters:
+  - Yudhishthira
+  - Dharma's son
+  - Sakuni
+  - Duryodhana
+  - Draupadi
+  - Bhima
+  - Arjuna
+  - Nakula
+  - Sahadeva
+  dilemma: A principled person keeps making high-stakes decisions they cannot walk away from, watching
+    their assets, relationships, and self-respect disappear in a single destructive session. They know
+    the game is rigged and each loss makes the next stake more desperate, yet they cannot bring themselves
+    to stop.
+  themes:
+  - addiction
+  - pride
+  - duty
+  - humiliation
+  - loss
+  related_verses:
+  - '10.36'
+  - '16.11'
+  - '16.15'
+  reviewed: false
+  evidence:
+  - section: 58
+    quote: Let us, therefore, O king, begin the play. Fear not. Let the stakes be fixed. Delay not!
+  - section: 59
+    quote: Then Sakuni, well-skilled at dice, took up the dice and (casting them) said unto Yudhishthira,
+      'Lo, I have won!'
+  - section: 60
+    quote: Hearing these words, Sakuni ready with the dice, and adopting unfair means, said unto Yudhishthira,
+      'Lo, I have won!'
+  - section: 64
+    quote: Yudhishthira said,--'This Nakula here, of mighty arms and leonine neck, of red eyes and endued
+      with youth, is now my one stake.'
+  - section: 66
+    quote: The king had first staked his brothers, then himself, and then thee, O princess.
+  - section: 70
+    quote: Nakula hath been won, as also Bhimasena, and Yudhishthira also, and Sahadeva, and Arjuna. And,
+      O Yajnaseni, thou art now a slave.
+  everyday:
+  - I keep betting my promotion on risky projects and losing everything.
+  - I promised to cover my sister's debt, but each time I borrow more, I'm broke.
+  - I keep taking extra credit to prove myself, but it's ruining my GPA.
+  - I keep gambling my friend's trust on my impulsive decisions, and now they're pulling away.
+  - I keep staying in this toxic relationship, hoping the next argument will finally end it.
+- id: eklavya-drona-thumb
+  title: Eklavya Gives His Thumb to Drona
+  parva: Adi
+  sections:
+  - 134
+  characters:
+  - Eklavya
+  - Drona
+  - Arjuna
+  - Partha
+  - Dhananjaya
+  dilemma: A self-taught outsider surpasses the establishment's favored student, prompting the gatekeeper
+    to demand a career-ending sacrifice to protect the hierarchy. The outsider's devotion is exploited
+    to maintain another's privileged status.
+  themes:
+  - sacrifice
+  - favoritism
+  - meritocracy
+  - injustice
+  - loyalty
+  related_verses:
+  - '2.7'
+  - '3.9'
+  reviewed: false
+  evidence:
+  - section: 134
+    quote: Thou hadst lovingly told me, clasping me, to thy bosom, that no pupil of thine should be equal
+      to me.
+  everyday:
+  - My boss wants me to quit so his nephew can take my promotion. I built this team from scratch.
+  - My sister says I can't stay in the family home because her son needs the space.
+  - My professor is failing me despite top grades because I didn't go to his alma mater.
+  - My best friend is jealous of my success and is trying to sabotage my new business.
+  - My partner's family is pressuring me to leave my job to support their son's lifestyle.
+- id: drona-demands-drupada
+  title: Drona Demands Drupada's Kingdom as Fee
+  parva: Adi
+  sections:
+  - 140
+  characters:
+  - Drona
+  - Drupada
+  - Yudhishthira
+  - Bhima
+  - Arjuna
+  - Partha
+  dilemma: A mentor leverages their authority to direct protégés into aggressive action that primarily
+    serves the mentor's personal vendetta rather than the students' growth. The protégés must choose between
+    honoring their obligation to the teacher and recognizing that the demand is self-serving and harmful
+    to others.
+  themes:
+  - injustice
+  - loyalty
+  - revenge
+  - duty
+  - humiliation
+  - leadership
+  related_verses:
+  - '2.4'
+  - '16.12'
+  - '18.34'
+  reviewed: false
+  evidence:
+  - section: 140
+    quote: the princes then, taking Drupada with them after having seized him on the field of battle along
+      with his friends and counsellors, offered him unto Drona
+  everyday:
+  - My boss wants me to sabotage a rival to save his own job. I feel trapped.
+  - My dad pressures me to sue my sister for money. It feels wrong and selfish.
+  - My professor is pushing me to cheat to boost his department's ranking. I'm scared.
+  - My best friend is pushing me to ghost my partner to prove a point. I hate it.
+  - My partner wants me to humiliate their ex to win an argument. I don't want to.
+- id: yudhishthira-ashwatthama-lie
+  title: Yudhishthira's Half-Truth Kills Drona
+  parva: Drona
+  sections:
+  - 191
+  characters:
+  - Yudhishthira
+  - Dharma's son
+  - Drona
+  - Aswatthaman
+  - Krishna
+  - Kesava
+  - Bhima
+  dilemma: A person renowned for absolute honesty faces pressure to utter a technically true but deliberately
+    misleading statement to achieve a vital objective, knowing it will destroy their reputation for integrity
+    while potentially saving many lives.
+  themes:
+  - truth
+  - deception
+  - duty
+  - sacrifice
+  - integrity
+  - warfare
+  related_verses:
+  - '2.34'
+  - '18.45'
+  - '2.4'
+  reviewed: false
+  evidence:
+  - section: 191
+    quote: Drona firmly believed that Yudhishthira would never speak an untruth even for the sake of the
+      sovereignty of the three worlds
+  everyday:
+  - I have to lie to my boss to save my team's jobs. I'm terrified of losing my integrity.
+  - My sister needs a transplant. I'm hiding my blood type to force the match. Is this right?
+  - I'm faking my grades to keep my scholarship. I feel sick every time I open my laptop.
+  - I told my best friend I'm busy to avoid a fight. I know it's a lie, but I'm exhausted.
+  - I'm lying to my partner about my finances to keep us together. I can't tell the truth.
+- id: krishna-peace-mission
+  title: Krishna's Peace Mission to Hastinapura
+  parva: Udyoga
+  sections:
+  - 92
+  - 94
+  - 124
+  - 129
+  characters:
+  - Krishna
+  - Dhritarashtra
+  - Duryodhana
+  - Bhishma
+  - Vidura
+  - Drona
+  - Karna
+  dilemma: A mediator enters a hostile environment to negotiate a last-chance settlement, knowing the
+    other side is unlikely to listen and may even threaten them, yet feeling obligated to try because
+    the cost of failure is catastrophic for everyone involved.
+  themes:
+  - peace
+  - duty
+  - pride
+  - fear of failure
+  related_verses:
+  - '2.65'
+  - '18.62'
+  reviewed: false
+  evidence:
+  - section: 94
+    quote: And that illustrious hero entered the court, arm-in-arm with Vidura and Satyaki on either side
+  - section: 124
+    quote: Thus addressed, he of Vrishni's race, conversant with the truths of virtue and profit, approached
+      nearer to the ever-wrathful Duryodhana
+  - section: 92
+    quote: It doth not seem proper to me, O Krishna, that thou shouldst go into the midst of these wicked-minded
+      wretches seated together
+  - section: 129
+    quote: Hearing these words of Krishna, king Dhritarashtra lost no time in addressing Vidura, who was
+      conversant with all dictates of virtue
+  everyday:
+  - messages
+- id: dhritarashtra-lac-house
+  title: Dhritarashtra Permits the Lac House Plot
+  parva: Adi
+  sections:
+  - 61
+  - 95
+  characters:
+  - Dhritarashtra
+  - Duryodhana
+  - Purochana
+  - Vidura
+  - Yudhishthira
+  - Bhima
+  - Arjuna
+  dilemma: A person in authority disregards warnings and actively enables a loved one's violent scheme
+    against innocent relatives, motivated by personal attachment and ambition rather than justice.
+  themes:
+  - favoritism
+  - silence
+  - deception
+  - ambition
+  - betrayal
+  - family
+  related_verses:
+  - '1.37'
+  - '2.6'
+  reviewed: false
+  evidence:
+  - section: 61
+    quote: with the knowledge of Dhritarashtra caused a house of lac to be constructed. And king Dhritarashtra,
+      from affection for his children, and prompted by the desire of sovereignty, sent the Pandavas tactfully
+      into Varanavata.
+  - section: 95
+    quote: Then Dhritarashtra sent them, by an act of deception to Varanavata, and they went there willingly.
+  everyday:
+  - My boss ignores safety reports to protect his nephew's risky project. I feel complicit.
+  - I keep covering for my brother's lies to my parents. It's destroying our trust.
+  - My study group leader hides plagiarism to keep us in the competition. I'm scared.
+  - I'm enabling my friend's toxic behavior to keep the friendship alive. I'm exhausted.
+  - My partner gaslights me, and I stay silent to avoid conflict. I feel trapped.
+- id: duryodhana-maya-palace
+  title: Duryodhana Falls into the Pool at Maya's Assembly Hall
+  parva: Sabha
+  sections:
+  - 49
+  characters:
+  - Duryodhana
+  - Bhima
+  - Arjuna
+  - Draupadi
+  - Nakula
+  - Sahadeva
+  - Maya
+  dilemma: You make a clumsy mistake in front of rivals who already resent your success, and their open
+    mockery — joined by others — turns a moment of embarrassment into a lasting wound to your pride.
+  themes:
+  - humiliation
+  - envy
+  - rivalry
+  - pride
+  - resentment
+  related_verses:
+  - '16.16'
+  reviewed: false
+  evidence:
+  - section: 49
+    quote: Once again, O king, beholding a similar lake that is really full of water but which I mistook
+      for a crystal surface, I fell into it.
+  everyday:
+  - I dropped a tray in front of my boss and his team. They all laughed. I feel so small now.
+  - My sister mocked my cooking at dinner. Everyone joined in. I just want to disappear.
+  - I failed the demo in front of my study group. They made fun of me for weeks.
+  - I tripped on stage at the recital. My friends filmed it and sent it to everyone.
+  - I said the wrong thing at the party. My partner's friends laughed. I feel humiliated.
+- id: shalya-karna-charioteer
+  title: Shalya Becomes Karna's Charioteer After Duryodhana's Trick
+  parva: Karna
+  sections:
+  - 32
+  - 36
+  characters:
+  - Shalya
+  - Karna
+  - Duryodhana
+  - Bhishma
+  dilemma: A person is manipulated into accepting a subordinate role for a leader they distrust, knowing
+    the venture is likely to fail. Despite their resentment and foresight of disaster, they feel bound
+    by their word to perform the duty faithfully.
+  themes:
+  - duty
+  - honor
+  - coercion
+  - loyalty
+  - pride
+  - sacrifice
+  related_verses:
+  - '3.36'
+  - '2.7'
+  - '18.43'
+  reviewed: false
+  evidence:
+  - section: 32
+    quote: Hearing these words of Duryodhana, Shalya, became filled with rage.
+  - section: 36
+    quote: Thus addressed, Shalya, answering, "So be it" ascended the car, O Bharata.
+  everyday:
+  - I promised to lead this project for my boss, but I know it’s doomed and I don’t trust him.
+  - I agreed to manage Mom’s new business, yet I see it failing and I doubt her decisions.
+  - I promised to co‑author the paper with my professor, but I think the research will flop.
+  - I said I’d help Jake start his app, even though I know it’ll crash and he’s unreliable.
+  - I promised to support my partner’s risky startup, but I see it failing and I don’t trust his plan.
+- id: savitri-satyavan
+  title: Savitri Wins Back Satyavan from Yama
+  parva: Vana
+  sections:
+  - 295
+  - 296
+  characters:
+  - Savitri
+  - Satyavan
+  - Yama
+  - Dyumatsena
+  - Markandeya
+  dilemma: A person faces the sudden, inevitable loss of their life partner and refuses to accept the
+    finality of death, persisting with extraordinary determination to reclaim their loved one against
+    all odds. The situation tests the limits of devotion when confronted with an irreversible-seeming
+    reality.
+  themes:
+  - love
+  - death
+  - patience
+  - duty
+  - grief
+  related_verses:
+  - '2.3'
+  - '9.31'
+  - '18.45'
+  reviewed: false
+  evidence:
+  - section: 295
+    quote: Yama by main force pulled out of the body of Satyavan, a person of the measure of the thumb
+  - section: 296
+    quote: A little while after, Savitri with her husband Satyavan reached the hermitage during the night
+      and entered it with a glad heart
+  everyday:
+  - I keep checking my phone for his call. The silence is killing me at work.
+  - My kids ask why mom isn't coming home. I don't know how to explain.
+  - I can't focus on my thesis. Her absence is louder than the library.
+  - My best friend says I need to move on. I just want her back.
+  - I'm packing his clothes. I can't let go, even though it's been months.
+- id: yaksha-prashna
+  title: Yudhishthira Answers the Yaksha's Questions at the Lake
+  parva: Vana
+  sections:
+  - 310
+  - 311
+  characters:
+  - Yudhishthira
+  - Yaksha
+  - Yama
+  - Nakula
+  - Sahadeva
+  - Arjuna
+  - Bhima
+  dilemma: A leader faces imminent loss of their entire team unless they can think clearly under mortal
+    threat and make a principled choice that appears irrational to observers but upholds their core values.
+  themes:
+  - duty
+  - integrity
+  - leadership
+  - wisdom
+  - family
+  - sacrifice
+  related_verses:
+  - '2.3'
+  - '16.1'
+  reviewed: false
+  evidence:
+  - section: 310
+    quote: Do thou drink only after answering my questions! If thou drink, however, without answering
+      my questions, thou shalt die immediately after.
+  - section: 311
+    quote: If virtue is sacrificed, he that sacrificeth it, is himself lost. So virtue also cherisheth
+      the cherisher.
+  everyday:
+  - My boss wants me to fire the whole team to save the company. I can't do it.
+  - My parents are pressuring me to drop out of med school to take over the family business.
+  - If I don't lie about my grades, I lose my scholarship and my family's trust.
+  - My best friend is cheating on his partner. Telling him will end our friendship forever.
+  - He asks me to choose between him and my career. I don't know how to answer.
+- id: yudhishthira-grief-after-victory
+  title: Yudhishthira refuses the kingdom overwhelmed by guilt after the war
+  parva: Stri
+  sections:
+  - 15
+  characters:
+  - Yudhishthira
+  - Krishna
+  - Vyasa
+  - Bhima
+  - Arjuna
+  - Dhritarashtra
+  dilemma: After achieving a long-sought goal, you find the cost was everyone you loved. The victory feels
+    indistinguishable from defeat, and you cannot imagine building anything on top of such loss. You want
+    to walk away entirely rather than preside over the ruins.
+  themes:
+  - guilt
+  - grief
+  - renunciation
+  - despair
+  - duty
+  - loss
+  related_verses:
+  - '1.32'
+  - '2.6'
+  - '2.8'
+  reviewed: false
+  evidence:
+  - section: 15
+    quote: I have no longer any need for life, for kingdom, for wealth!
+  everyday:
+  - I got the promotion but my team was laid off. Can't celebrate sitting in their empty chairs.
+  - I won the inheritance fight but lost my siblings. The house feels like a tomb now.
+  - Graduated top of my class but my dad died before seeing it. The degree means nothing.
+  - Finally made partner at the firm but betrayed my best friend to do it. Quitting tomorrow.
+  - Got the dream wedding but my mom wasn't there. Can't stay married in this house.
+- id: pandavas-final-journey-renunciation
+  title: The Pandavas set out on the great journey and fall one by one
+  parva: Mahaprasthanika
+  sections:
+  - 1
+  - 2
+  - 3
+  characters:
+  - Yudhishthira
+  - Bhima
+  - Arjuna
+  - Nakula
+  - Sahadeva
+  - Draupadi
+  - Dog
+  dilemma: At life's end, one must release all attachments and companions, walking forward alone with
+    integrity despite grief and the pain of watching loved ones fall away.
+  themes:
+  - renunciation
+  - loyalty
+  - grief
+  - duty
+  - integrity
+  - attachment
+  related_verses:
+  - '8.6'
+  - '9.21'
+  - '8.16'
+  reviewed: false
+  evidence:
+  - section: 1
+    quote: The five brothers, with Draupadi forming the sixth, and a dog forming the seventh, set out
+      on their journey.
+  - section: 2
+    quote: Beholding both Krishna and the Pandava Sahadeva fallen down, the brave Nakula, whose love for
+      kinsmen was very great, fell down himself.
+  - section: 3
+    quote: Hearing these words of king Yudhishthira the just, (the dog became transformed into) the deity
+      of Righteousness
+  everyday:
+  - I’m being let go and I have to keep my integrity while watching colleagues leave.
+  - My parents are moving away; I feel torn between staying strong and missing them.
+  - Graduating means leaving my study group; I’m scared to walk this path alone.
+  - My best friend is moving abroad; I need to let go but it hurts.
+  - My partner wants space; I must respect that even though it feels like losing everything.
+- id: bhima-kills-duhsasana-drinks-blood
+  title: Bhima kills Duhsasana and drinks his blood to fulfill his vow
+  parva: Karna
+  sections:
+  - 83
+  characters:
+  - Bhima
+  - Duhsasana
+  - Karna
+  - Duryodhana
+  - Krishna
+  - Arjuna
+  dilemma: A person carries a wound from a past humiliation so deep that it warps their sense of justice,
+    driving them to an act of retaliation so extreme it horrifies witnesses and leaves them questioning
+    whether they have become the very monstrosity they sought to punish.
+  themes:
+  - grief
+  - humiliation
+  - revenge
+  - violence
+  - trauma
+  - vow
+  related_verses:
+  - '1.47'
+  - '11.30'
+  reviewed: false
+  evidence:
+  - section: 83
+    quote: Bhima of great intelligence, desirous of accomplishing his vow, again quaffed his enemy's blood
+      little by little
+  everyday:
+  - I’m thinking of sabotaging my boss after his public insult; I fear I’m becoming the bully.
+  - My sibling embarrassed me for years; I want revenge, but I’m terrified I’ll become the monster.
+  - A professor ridiculed my research; I’m tempted to expose his secrets, yet I feel I’m sinking.
+  - My best friend spread my private joke; I want to ruin his reputation, but I’m losing myself.
+  - My partner mocked my insecurities; I’m planning to break them down, yet I’m scared I’ll become cruel.
+- id: arjuna-jayadratha-vow-sunset
+  title: Arjuna vows to kill Jayadratha before sunset or die by fire
+  parva: Drona
+  sections:
+  - 75
+  - 76
+  - 79
+  - 80
+  characters:
+  - Arjuna
+  - Jayadratha
+  - Krishna
+  - Drona
+  - Duryodhana
+  - Yudhishthira
+  dilemma: A person publicly commits to an almost impossible deadline with catastrophic personal consequences
+    for failure, driven by grief and a sense of honor that makes backing down unthinkable. The stakes
+    force them to attempt what seems beyond their capacity, knowing that their reputation and self-respect
+    hinge on a single, high-pressure performance.
+  themes:
+  - vow
+  - grief
+  - honor
+  - duty
+  - desperation
+  - courage
+  related_verses:
+  - '18.9'
+  - '3.9'
+  - '18.73'
+  reviewed: false
+  evidence:
+  - section: 76
+    quote: O Krishna, I swear by Truth, I touch my weapons (and swear by them), that I shall, O Kesava,
+      at the very outset, encounter that Drona
+  - section: 75
+    quote: they then learnt truly the vow about the slaughter of the ruler of the Sindhus, made by thee
+      that art wedded to truth
+  - section: 79
+    quote: If he fails to slay the ruler of the Sindhus tomorrow, he will certainly enter into blazing
+      fire
+  - section: 80
+    quote: Grave is the vow that I have made about the slaughter of Jayadratha. Even tomorrow I shall
+      slay that wicked wretch, that slayer of my son
+  everyday:
+  - I told my boss I'd fix the server by 5pm or I quit. I'm terrified.
+  - My sister said if I don't pay the debt today, I'm dead to her.
+  - I promised my friend I'd pass the bar exam or lose my license.
+  - My partner said if I don't propose tonight, we're done. I'm panicking.
+  - I told my dad I'd get the scholarship or I'm a failure. I can't breathe.
+- id: nala-damayanti-teaches-patience
+  title: Brihadashva tells Yudhishthira the story of Nala and Damayanti
+  parva: Vana
+  sections:
+  - 52
+  - 55
+  - 56
+  - 57
+  - 58
+  - 59
+  - 60
+  - 61
+  - 62
+  - 63
+  - 64
+  - 65
+  - 66
+  - 67
+  - 68
+  - 69
+  - 70
+  - 71
+  - 72
+  - 73
+  - 74
+  - 75
+  - 76
+  - 79
+  characters:
+  - Yudhishthira
+  - Brihadashva
+  - Nala
+  - Damayanti
+  dilemma: A person faces prolonged hardship after losing their position and being separated from loved
+    ones, feeling overwhelmed by uncertainty and grief while struggling to maintain hope. They seek perspective
+    to endure the present suffering without knowing if or when circumstances will improve.
+  themes:
+  - patience
+  - loss
+  - heartbreak
+  - uncertainty
+  related_verses:
+  - '7.27'
+  - '18.1'
+  - '18.4'
+  reviewed: false
+  evidence:
+  - section: 52
+    quote: And beholding that virtuous ascetic before him, the righteous king worshipped him according
+      to the ordinance, with the offering of Madhuparka.
+  - section: 55
+    quote: And having arrived there, he beheld the daughter of the king of Vidarbha surrounded by her
+      hand-maids, blazing in beauty and excelling in symmetry of form
+  - section: 56
+    quote: with eyes bathed in tears of grief spake thus unto Nala, 'O lord of the earth, bowing to all
+      the gods, I choose thee'
+  - section: 57
+    quote: And the happy pair beholding Agni and the other gods mentally sought their protection. And
+      after the daughter of Bhima had chosen Naishadha as her husband
+  - section: 58
+    quote: And thereupon Kali replied unto Sakra, 'Going to Damayanti's Swayamvara, will I obtain her
+      (for my wife), as my heart is fixed upon that damsel.'
+  - section: 59
+    quote: Vrihadaswa said, 'Having made this compact with Dwapara, Kali came to the place where the king
+      of the Nishadhas was. And always watching for a hole
+  - section: 60
+    quote: Vrihadaswa said. 'Bhima's daughter, the cool-headed Damayanti, seeing the righteous king maddened
+      and deprived of his senses at dice, was filled, O king, with alarm and grief.'
+  - section: 61
+    quote: Vrihadaswa said, 'After Varshneya had gone away, Pushkara won from the righteous Nala that
+      latter's kingdom and what else of wealth he had.'
+  - section: 62
+    quote: Damayanti, king Nala, wrapped in half a garment, comforted his blessed wife. And both attired
+      in one cloth and wearied with hunger and thirst
+  - section: 63
+    quote: Vrihadaswa said, 'O king, after Nala had gone away, the beauteous Damayanti, now refreshed,
+      timorously awoke in that lonely forest. And O mighty monarch
+  - section: 64
+    quote: who, alone in this great forest, address thee. Wherefore, then, dost thou not reply unto me?
+      Oh, I do not behold thee today on this mountain
+  - section: 65
+    quote: maniac, seemeth a very Sree with her large eyes.' Thus commanded, the nurse went out and dispersing
+      the crowd brought Damayanti to that graceful terrace.
+  - section: 66
+    quote: Vrihadaswa said, 'O monarch, having deserted Damayanti, king Nala saw a mighty conflagration
+      that was raging in that dense forest. And in the midst
+  - section: 67
+    quote: Vrihadaswa said, 'After the snake had vanquished, Nala, the ruler of the Nishadhas, proceeded,
+      and on the tenth day entered the city of Rituparna.'
+  - section: 68
+    quote: Vaisampayana said, 'After Nala, despoiled of his kingdom, had, with his wife, become a bondsman,
+      Bhima with the desire of seeing Nala sent out Brahmanas to search for him.'
+  - section: 69
+    quote: and garments of the first quality. And soon enough she reached the country of the Vidarbhas.
+      And all her relatives, rejoicing (in her arrival) received her with respect.
+  - section: 70
+    quote: heard all. Do what thou thinkest proper, and inform the king of it.' Hearing these words of
+      his, I have speedily come here. Thou hast now heard all.
+  - section: 71
+    quote: king of Ayodhaya was exceedingly amazed. And noticing the rattle of the car and also the management
+      of the steeds, Varshneya reflected upon Vahuka's skill in guiding horses.
+  - section: 72
+    quote: Rituparna, having regard to the importance of the act that depended upon Vahuka's good-will,
+      and tempted also by the horse-lore (that his charioteer possessed), said, 'So be it.'
+  - section: 73
+    quote: Vrihadaswa said, 'After Rituparna of prowess incapable of being baffled had, in the evening,
+      arrived at the city of the Vidarbhas, the people brought unto king Bhima the tidings (of his arrival).
+  - section: 74
+    quote: Thus addressed, Vahuka answered, the illustrious king of Kosala had heard from a Brahmana that
+      a second Swayamvara of Damayanti would take place.
+  - section: 75
+    quote: and was not burnt. And at his will, water falling floweth in a stream. And, I have witnessed
+      another greater wonder still. He took up some flowers, began to press them slowly with his hands.
+  - section: 76
+    quote: cast away all his doubts in respect of Damayanti. And then that lord of earth, remembering
+      the king of serpents, wore that pure garment and regained his native form.
+  - section: 79
+    quote: Vrihadaswa said, 'After the festivities had commenced in the city that was full of joy and
+      without anxiety of any kind, the king with a large force brought Damayanti (from her father's home).
+  everyday:
+  - Lost my job and my partner left. I don't know how to keep going.
+  - My parents are sick and I'm broke. I feel like I'm drowning in debt.
+  - Failed my exams twice. I feel like a total failure and I'm exhausted.
+  - My best friend cut me off. I feel so alone and confused about everything.
+  - We're fighting constantly. I don't know if we can survive this distance.
+- id: amba-vow-against-bhishma
+  title: Amba Vows to Destroy Bhishma After He Rejects Her
+  parva: Udyoga
+  sections:
+  - 178
+  - 179
+  - 180
+  - 189
+  characters:
+  - Amba
+  - Bhishma
+  - Salwa
+  - Kashiraja
+  dilemma: A person makes a desperate promise in the heat of emotional pain, and that promise later becomes
+    an all‑consuming obsession that dictates their actions across many years. The original anguish turns
+    into a self‑imposed burden that limits choices and fuels a relentless drive for retribution.
+  themes:
+  - revenge
+  - vow
+  - anguish
+  - obsession
+  - duty
+  related_verses:
+  - '16.10'
+  - '3.36'
+  reviewed: false
+  evidence:
+  - section: 178
+    quote: I have, O hero, within my heart chosen the lord of the Salwas to be my husband.
+  - section: 179
+    quote: Therefore, thou shouldst cause thy vengeance to fall upon Bhishma (and no other)!
+  - section: 180
+    quote: My misery, O holy one, should by any means be dispelled by thee.
+  - section: 189
+    quote: I am practising the severest penances for the destruction of Bhishma.
+  everyday:
+  - I promised my boss I'd outwork everyone after being passed over, now I can't stop grinding.
+  - I swore I'd never forgive my sibling for that betrayal, and it's ruining all our family gatherings.
+  - After failing that exam, I vowed to ace every test, now I can't enjoy any class.
+  - I told my best friend I'd cut them off if they ever left me, and I’m stuck waiting.
+  - I promised I'd never let them hurt me again, so I keep checking their every move.
+- id: karna-parashurama-curse-lineage
+  title: Karna reveals to Krishna how Parashurama cursed him for hiding his birth
+  parva: Santi
+  sections:
+  - 3
+  characters:
+  - Karna
+  - Krishna
+  - Parashurama
+  - Radha
+  - Adhiratha
+  dilemma: You are offered a position of high status and security that would resolve your past struggles,
+    but you must choose between accepting it and abandoning the friend who has supported you through your
+    hardships. The dilemma involves weighing the legitimacy and comfort of a new path against the deep
+    loyalty you feel toward someone who has stood by you despite your flaws.
+  themes:
+  - loyalty
+  - identity
+  - betrayal
+  - curse
+  - choice
+  related_verses:
+  - '3.36'
+  reviewed: false
+  evidence:
+  - section: 3
+    quote: Tell me the truth, without fear.' Thus asked, Karna, fearing to be cursed, and seeking to gratify
+      him
+  everyday:
+  - I got a promotion, but my best friend needs me right now—what should I do?
+  - My parents want me to take the stable job, but I’m scared to leave my roommate’s startup.
+  - I earned a scholarship abroad, yet my study group relies on me for the final project.
+  - My girlfriend offered to move in, but I’m considering a career move to another city.
+  - I’m about to accept a senior role, but my mentor is retiring and needs my help transitioning.
+- id: uttara-freezes-battle
+  title: Uttara Freezes Before the Kaurava Army
+  parva: Virata
+  sections:
+  - 38
+  characters:
+  - Uttara
+  - Arjuna (Brihannala)
+  - Kaurava army
+  - Virata
+  dilemma: A young person facing their first major challenge freezes in panic, unable to act or move forward,
+    until a more experienced guide intervenes to steady them and redirect them toward action.
+  themes:
+  - fear
+  - courage
+  - mentorship
+  - duty
+  - initiation
+  related_verses:
+  - '2.3'
+  - '1.47'
+  - '2.14'
+  reviewed: false
+  evidence:
+  - section: 38
+    quote: Meanwhile, Dhananjaya, hastily pursuing the retreating Uttara, seized him by the hair within
+      a hundred steps.
+  everyday:
+  - First big presentation tomorrow. Mind's blank. Can't even open the slides.
+  - Mom's in hospital. I'm the oldest. Everyone's looking at me. I can't breathe.
+  - Thesis defense in an hour. Frozen at my desk. Can't remember anything I wrote.
+  - Best friend's breaking down. They need me. I'm just... stuck. Can't find words.
+  - Moving in together Friday. Panic hit me hard. Can't pack. Can't think. Just frozen.
+- id: shakuntala-rejected-dushyanta
+  title: Shakuntala Rejected by Dushmanta in Court
+  parva: Adi
+  sections: []
+  characters:
+  - Sakuntala
+  - Dushmanta
+  - Bharata
+  - Kanwa
+  - Gautami
+  dilemma: A person is publicly denied by their partner who refuses to acknowledge their marriage and
+    child, leaving them without support or recognition. The betrayal cuts deep because it comes from someone
+    who once pledged commitment, and the rejection plays out before others who witness the humiliation.
+  themes:
+  - humiliation
+  - betrayal
+  - abandonment
+  - motherhood
+  - identity
+  - justice
+  related_verses:
+  - '2.3'
+  - '5.22'
+  reviewed: false
+  needs_check: true
+  check_reason: no candidate section narrates the episode (looked at [74, 73, 2, 71, 95, 123, 94, 65,
+    68, 69, 70, 72])
+  evidence: []
+  everyday:
+  - My boss knows we're married but HR says no record exists. He's denying everything.
+  - His parents act like I don't exist. He won't correct them or claim our baby.
+  - Classmates saw him introduce me as wife. Now he tells everyone we're nothing.
+  - Our friends watched him promise forever. Now he pretends we never happened.
+  - He signed the papers, held our son, then walked into court and said 'never met her.'
+- id: duryodhana-hides-lake
+  title: Duryodhana Hides Alone in the Dvaipayana Lake
+  parva: Shalya
+  sections:
+  - 31
+  - 32
+  characters:
+  - Duryodhana
+  - Sanjaya
+  - Krishna (Kesava)
+  - Yudhishthira
+  - Bhimasena
+  - Dhananjaya
+  - Nakula
+  - Sahadeva
+  dilemma: A person who has lost all support and faces total defeat retreats into solitary concealment,
+    hoping to avoid final confrontation. They feel utterly alone, abandoned by former allies, and cornered
+    by adversaries who demand accountability.
+  themes:
+  - loneliness
+  - defeat
+  - deception
+  - desperation
+  - humiliation
+  - abandonment
+  related_verses:
+  - '13.11'
+  - '6.10'
+  reviewed: false
+  evidence:
+  - section: 31
+    quote: Having reached the banks of the Dvaipayana lake, O chief of Kuru's race, they beheld that receptacle
+      of waters enchanted by thy son.
+  - section: 32
+    quote: Rising from the water, thy son Duryodhana stood there, armed with mace, and with limbs bathed
+      in blood.
+  everyday:
+  - Everyone turned against me at work. Hiding in my office, don't know how to face them tomorrow.
+  - Family cut me off completely. Staying at a motel, avoiding their calls. They want answers I can't
+    give.
+  - Failed everything. Professors want a meeting. I'm holed up in my dorm, can't face expulsion hearing.
+  - All my friends ghosted me after the fight. Hiding at home, they're demanding an apology I can't make.
+  - Partner found out everything. Their family surrounds the house. I'm locked in the bathroom, no way
+    out.
+- id: yudhishthira-regrets-karna
+  title: Yudhishthira Learns Karna Was His Brother
+  parva: Stri
+  sections:
+  - 27
+  characters:
+  - Yudhishthira
+  - Pritha
+  - Radheya
+  - Kesava
+  - Dhananjaya
+  - Bhimasena
+  - Sahadeva
+  - Nakula
+  dilemma: A person discovers too late that someone they severely harmed was actually a close family member,
+    triggering overwhelming regret and a shattering of their self-understanding. The realization arrives
+    after the damage is irreversible, leaving them to grapple with grief compounded by the betrayal of
+    their own ignorance.
+  themes:
+  - grief
+  - guilt
+  - family
+  - identity
+  - revelation
+  - duty
+  related_verses:
+  - '1.28'
+  - '1.47'
+  reviewed: false
+  evidence:
+  - section: 27
+    quote: was your eldest brother. Offer oblations of water unto that eldest brother of yours who was
+      born of me by the god of day.
+  everyday:
+  - I found out the colleague I sabotaged was my estranged brother. I can't undo what I did.
+  - My mom just told me the man I reported to police was my father. I'm destroyed.
+  - I plagiarized my roommate's thesis, then learned she's my half-sister. The guilt is unbearable.
+  - I cut off my best friend for stealing, only to discover he's my cousin. Too late.
+  - I broke up with my partner harshly, then found out we share a mother. I'm shattered.
+- id: parashurama-kills-mother
+  title: Parashurama Kills His Mother on His Father's Command
+  parva: Vana
+  sections: []
+  characters:
+  - Rama (Parashurama)
+  - Jamadagni
+  - Renuka
+  - Bhargava
+  - Kartavirya
+  dilemma: A person faces pressure from a respected authority figure to carry out an act that violates
+    their deepest moral convictions. They must choose between obedience to that authority and fidelity
+    to their own conscience, knowing that either choice will bring profound personal cost.
+  themes:
+  - duty
+  - obedience
+  - integrity
+  - family
+  - sacrifice
+  - guilt
+  related_verses:
+  - '3.35'
+  - '1.36'
+  reviewed: false
+  needs_check: true
+  check_reason: no candidate section narrates the episode (looked at [99, 83, 115, 116, 117, 85, 87, 82,
+    118])
+  evidence: []
+  everyday:
+  - My boss wants me to falsify reports. I'll lose my job if I refuse.
+  - Dad insists I cut off my sister. He'll disown me if I don't comply.
+  - Professor demands I plagiarize for the grant. My degree depends on it.
+  - Best friend wants me to lie to cover their crime. They'll end our friendship otherwise.
+  - Partner pressures me to abort. Says they'll leave if I keep the baby.
+- id: draupadi-jealous-subhadra-arrival
+  title: Draupadi's Jealousy When Arjuna Brings Subhadra Home
+  parva: Adi
+  sections:
+  - 223
+  characters:
+  - Draupadi
+  - Arjuna
+  - Subhadra
+  - Krishna
+  dilemma: A partner feels threatened and insecure when their significant other brings a new romantic
+    partner into their shared home, fearing loss of status and affection. The situation forces a confrontation
+    with jealousy and the challenge of accepting a rival without losing self-worth.
+  themes:
+  - envy
+  - self-worth
+  - love
+  - rivalry
+  - acceptance
+  - forgiveness
+  related_verses:
+  - '2.45'
+  - '18.34'
+  - '3.36'
+  reviewed: false
+  evidence:
+  - section: 223
+    quote: Draupadi, from jealousy, spoke unto him, saying, 'Why tarriest thou here, O son of Kunti? Go
+      where the daughter of the Satwata race is!'
+  everyday:
+  - Can't focus at work knowing he's with her in our apartment.
+  - My mom keeps asking why I 'allow' this arrangement. It's humiliating.
+  - Failing my exams because I keep imagining them together in our bed.
+  - My best friend says I'm crazy for staying. Maybe she's right.
+  - He says he loves us both equally. Why does it feel like I'm losing?
+- id: draupadi-doubts-yudhishthira-dharma
+  title: Draupadi Challenges Yudhishthira's Forbearance in Exile
+  parva: Vana
+  sections:
+  - 27
+  - 30
+  - 31
+  characters:
+  - Draupadi
+  - Yudhishthira
+  - Bhima
+  dilemma: When a partner's rigid adherence to principle looks like passivity in the face of injustice,
+    the other partner feels torn between respecting that commitment and demanding action to protect their
+    shared life. The challenge becomes whether principle without power is virtue or a betrayal of those
+    who depend on you.
+  themes:
+  - duty
+  - forgiveness
+  - anger
+  - virtue
+  - humiliation
+  - partnership
+  related_verses:
+  - '2.3'
+  - '2.7'
+  - '18.3'
+  reviewed: false
+  evidence:
+  - section: 27
+    quote: It is said that there is no Kshatriya in the world who is bereft of anger.
+  - section: 30
+    quote: It seemeth that man can never attain prosperity in this world by virtue, gentleness, forgiveness,
+      straight-forwardness and fear of censure!
+  - section: 31
+    quote: It behoveth thee not, therefore, O amiable Queen, to either doubt or censure God or act, with
+      a foolish heart.
+  everyday:
+  - My boss won't confront the abusive client, says it's not our role. We're losing the account.
+  - Dad insists on 'keeping peace' with my abusive uncle, but I can't stay silent while Mom suffers.
+  - My lab partner refuses to report the professor's harassment, calling it 'professionalism.' I'm failing
+    because I can't speak up.
+  - Alex won't call out our friend's theft, says loyalty matters more. I'm left covering the loss alone.
+  - My partner won't confront their parent's control over our finances, says it's 'respect.' We're drowning
+    in debt.
+- id: yudhishthira-seeks-blessings-from-elders
+  title: Yudhishthira Asks Bhishma and Drona for Permission to Fight
+  parva: Bhishma
+  sections:
+  - 43
+  characters:
+  - Yudhishthira
+  - Bhishma
+  - Drona
+  - Kripa
+  - Shalya
+  dilemma: You must undertake a necessary confrontation, but the mentors who shaped your values now stand
+    on the other side. You seek their blessing to act against them without betraying the respect they
+    taught you.
+  themes:
+  - duty
+  - loyalty
+  - reverence
+  - peace
+  - mentorship
+  - integrity
+  related_verses:
+  - '2.4'
+  - '2.7'
+  reviewed: false
+  evidence:
+  - section: 43
+    quote: I ask thee, O invincible one, how I may fight without incurring sin, and how, with thy permission
+  everyday:
+  - My boss taught me integrity; now I must report his misconduct. How do I honor him while doing right?
+  - Dad raised me to be honest, but I have to testify against him. Can I still respect him?
+  - My professor shaped my ethics; I must expose his plagiarism. How to confront without losing gratitude?
+  - My best friend taught loyalty, yet I must end our partnership. How to break ties respectfully?
+  - My partner taught me compassion, but I must leave for my safety. How to honor that lesson?
+- id: pandavas-mendicants-in-ekachakra
+  title: The Pandavas Live as Begging Brahmins in Ekachakra
+  parva: Adi
+  sections: []
+  characters:
+  - Yudhishthira
+  - Bhima
+  - Arjuna
+  - Nakula
+  - Sahadeva
+  - Kunti
+  dilemma: A person who once held status and security loses everything and must survive by adopting the
+    humblest possible identity, begging door-to-door while concealing their true self. The reversal strips
+    away all external markers of worth, forcing a confrontation with dependence and anonymity.
+  themes:
+  - humiliation
+  - identity
+  - survival
+  - humility
+  - loss
+  - patience
+  related_verses:
+  - '1.32'
+  - '18.62'
+  - '7.27'
+  reviewed: false
+  needs_check: true
+  check_reason: no candidate section narrates the episode (looked at [1, 193, 2, 61, 95, 150, 223, 140,
+    151, 152, 153])
+  evidence: []
+  everyday:
+  - Lost my senior role, now taking entry-level tasks. Nobody knows my past. Feels like starting from
+    zero.
+  - Moved back with parents at 35. Hiding my failed business. Pretending I'm just 'between jobs' to them.
+  - PhD dropout, now auditing undergrad classes anonymously. Professor asked my background; I lied and
+    said 'first year.'
+  - Old friends invite me to expensive trips. I make excuses, can't admit I'm broke and couch-surfing.
+  - New partner thinks I'm a consultant. Really I'm doing gig work, sleeping in my car. Terrified they'll
+    find out.
+- id: vidura-insomnia-burden-of-knowledge
+  title: Vidura's Sleepless Agony Over the Coming War
+  parva: Udyoga
+  sections: []
+  characters:
+  - Vidura
+  - Sanjaya
+  dilemma: A trusted advisor sees disaster approaching clearly but cannot persuade the decision-makers
+    to avert it, and now endures the exhausting, sleepless weight of knowing the catastrophe is inevitable
+    while still feeling responsible for those who will suffer.
+  themes:
+  - burnout
+  - foresight
+  - helplessness
+  - duty
+  - grief
+  - fear
+  related_verses:
+  - '1.30'
+  - '1.31'
+  - '2.63'
+  reviewed: false
+  needs_check: true
+  check_reason: no candidate section narrates the episode (looked at [33, 48, 50, 29, 26, 51, 36, 60,
+    34])
+  evidence: []
+  everyday:
+  - I've warned management about the project's fatal flaw, but they won't listen. I'm losing sleep over
+    the team's fallout.
+  - My parents refuse to plan for their care, and I'm terrified they'll suffer. I feel helpless.
+  - My research shows the policy will harm students, but the committee ignores me. I'm exhausted fighting
+    alone.
+  - I see my friend heading into a toxic relationship, but she won't hear my concerns. It's killing me.
+  - My partner dismisses my warnings about our finances, and I'm dreading the inevitable crash. I can't
+    sleep.
+- id: arjuna-yudhishthira-gandiva-conflict
+  title: Arjuna Draws Sword on Yudhishthira Over Gandiva Insult
+  parva: Karna
+  sections:
+  - 69
+  - 70
+  characters:
+  - Arjuna
+  - Yudhishthira
+  - Krishna
+  dilemma: A person's professional identity and cherished tool are publicly disparaged by a respected
+    elder, triggering an explosive rage that nearly destroys their most important relationship. Only a
+    trusted mediator's calm intervention prevents an irreversible act of violence against someone they
+    deeply love and respect.
+  themes:
+  - humiliation
+  - anger
+  - pride
+  - brotherhood
+  - intervention
+  - vow
+  related_verses:
+  - '2.4'
+  - '1.28'
+  - '3.36'
+  reviewed: false
+  evidence:
+  - section: 69
+    quote: I would cut off the head of that man who would tell me 'Give thy Gandiva to another person.'
+  - section: 70
+    quote: Partha threw down his weapons and cast aside his bow and quickly thrust his sword back into
+      its sheath
+  everyday:
+  - My boss trashed my life's work in front of everyone. I almost hit him. Colleague stopped me.
+  - Dad mocked my career choice at dinner. I snapped, nearly hurt him. Mom pulled me back.
+  - Professor ridiculed my thesis publicly. I lost it, almost attacked him. Advisor calmed me down.
+  - Best friend trashed my art project in group chat. I raged, nearly punched him. Another friend intervened.
+  - Partner belittled my business in front of family. I exploded, almost struck them. Sibling stepped
+    in.
+- id: yayati-sons-refuse-youth
+  title: Yayati's Sons Refuse to Exchange Youth for His Old Age
+  parva: Adi
+  sections:
+  - 75
+  - 84
+  - 85
+  characters:
+  - Yayati
+  - Puru
+  - Yadu
+  - Turvasu
+  - Druhyu
+  - Anu
+  dilemma: An aging parent asks each adult child to give up their prime years to shoulder the parent's
+    infirmities, but only the youngest agrees while the older siblings refuse, leaving the family torn
+    between filial duty and personal sacrifice.
+  themes:
+  - duty
+  - sacrifice
+  - family
+  - aging
+  - obedience
+  - inheritance
+  related_verses:
+  - '2.13'
+  - '2.14'
+  - '11.44'
+  reviewed: false
+  evidence:
+  - section: 75
+    quote: Accept thou my decrepitude, O son! With thy youth I would enjoy myself.
+  - section: 84
+    quote: I shall do, O monarch, as thou bidest me. I shall take, O king, thy weakness and decrepitude.
+  - section: 85
+    quote: By Puru alone hath my word been obeyed. By him have I been much regarded. Therefore, the youngest
+      shall be my heir.
+  everyday:
+  - My boss expects me to cover mom's care, but my siblings won't help.
+  - Dad wants me to quit my job for his care; brothers refuse.
+  - I'm missing exams to nurse mom while my sister stays in college.
+  - Friends don't get why I'm always at the hospital instead of hanging out.
+  - My partner feels neglected because I'm caring for dad alone.
+- id: urvashi-propositions-arjuna
+  title: Urvashi Propositions Arjuna in Indra's Heaven
+  parva: Vana
+  sections:
+  - 45
+  - 46
+  characters:
+  - Arjuna
+  - Urvashi
+  - Indra
+  dilemma: A person in a dependent position faces unwanted sexual advances from a powerful figure who
+    has institutional authority, and must refuse despite pressure to comply, because accepting would betray
+    their core commitments and sense of self.
+  themes:
+  - duty
+  - temptation
+  - integrity
+  - celibacy
+  - leadership
+  - loyalty
+  related_verses:
+  - '18.1'
+  reviewed: false
+  evidence:
+  - section: 45
+    quote: Commanded by Indra, let him today obtain thy feet. Do this, O amiable one, for Dhananjaya is
+      inclined to thee.
+  - section: 46
+    quote: Arjuna, with a fearstricken heart, stepped up to receive her with respect and as soon as he
+      saw her, the son of Pritha, from modesty, closed his eyes.
+  everyday:
+  - My boss keeps making sexual comments; I need this job but can't compromise my values.
+  - My uncle, who controls family finances, is pressuring me for sex; I feel trapped.
+  - My professor hints at better grades if I sleep with him; I'm scared to report.
+  - My best friend's older sibling, who runs our group, keeps touching me; I don't want to lose them.
+  - My partner's boss, who holds my visa, demands sex; I can't risk deportation but won't betray myself.
+- id: vikarna-protests-draupadi-disrobing
+  title: Vikarna Denounces Draupadi's Disrobing in the Assembly
+  parva: Sabha
+  sections: []
+  characters:
+  - Vikarna
+  - Duryodhana
+  - Duhsasana
+  - Draupadi
+  - Bhishma
+  - Drona
+  - Vidura
+  dilemma: A person witnesses a public humiliation or injustice and feels compelled to speak out, but
+    sees that senior leaders and respected figures remain silent. The dilemma is whether to risk isolation
+    and retaliation by being the lone voice of conscience, or to stay quiet like everyone else.
+  themes:
+  - courage
+  - silence
+  - humiliation
+  - duty
+  - integrity
+  related_verses:
+  - '2.34'
+  - '1.28'
+  reviewed: false
+  needs_check: true
+  check_reason: no candidate section narrates the episode (looked at [66, 80, 70, 57, 69, 73, 48, 79,
+    65, 68, 71, 72])
+  evidence: []
+  everyday:
+  - My boss ignored harassment in the meeting; should I speak up alone?
+  - Uncle made a cruel joke at dinner; everyone laughed, I stayed quiet.
+  - Professor dismissed a student's complaint; classmates silent, I'm torn.
+  - Friend posted a hateful comment; group chat quiet, I want to respond.
+  - Partner belittled me in front of friends; they said nothing, I'm scared.

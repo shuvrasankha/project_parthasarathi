@@ -1,0 +1,150 @@
+# Held-out set: written 2026-11-07 BEFORE any improvement work, never used for debugging.
+# Changes are judged on this set; eval/queries.yaml is the dev set.
+# expected_situation only uses ids that existed when this file was written.
+- id: h01
+  lang: en
+  message: I froze during my job interview and now I'm scared to even apply anywhere again.
+  expected_themes: [fear of failure, career, paralysis]
+  expected_situation: arjuna-kurukshetra-dilemma
+- id: h02
+  lang: en
+  message: My sister always gets praised at family dinners and nobody even notices what I've achieved.
+  expected_themes: [envy, family, favoritism, self-worth]
+  expected_situation: duryodhana-maya-palace
+- id: h03
+  lang: en
+  message: My coach makes me give up my weekends and my health so his favourite player can shine.
+  expected_themes: [exploitation, injustice, sacrifice, mentor]
+  expected_situation: eklavya-drona-thumb
+- id: h04
+  lang: en
+  message: I gambled away the rent money at a card game last night. My family doesn't know yet.
+  expected_themes: [addiction, gambling, guilt, family]
+  expected_situation: yudhishthira-dice-game
+- id: h05
+  lang: en
+  message: My son died in an accident last year. People tell me to move on but I can't.
+  expected_themes: [grief, loss, death]
+  expected_situation: gandhari-lament-sons
+- id: h06
+  lang: en
+  message: In the meeting, my colleague mocked me and the senior people laughed along. Nobody defended me.
+  expected_themes: [humiliation, silence, injustice, workplace]
+  expected_situation: draupadi-disrobing-sabha
+- id: h07
+  lang: en
+  message: Everyone says I'm the most honest person they know, but to save my team I'd have to twist the truth.
+  expected_themes: [truth, deception, duty, integrity]
+  expected_situation: yudhishthira-ashwatthama-lie
+- id: h08
+  lang: en
+  message: I made a public promise that I'd finish this project by Friday or resign. It's Thursday and I'm nowhere close.
+  expected_themes: [vow, fear of failure, pride]
+  expected_situation: arjuna-jayadratha-vow-sunset
+- id: h09
+  lang: en
+  message: I tried everything to stop two departments from fighting, but nobody would compromise.
+  expected_themes: [peace, conflict, mediation, failure]
+  expected_situation: krishna-peace-mission
+- id: h10
+  lang: en
+  message: I finally beat my rival for the top job and now I can't sleep thinking about what it cost.
+  expected_themes: [guilt, emptiness, victory]
+  expected_situation: yudhishthira-grief-after-victory
+- id: h11
+  lang: en
+  message: I just found out the man who raised me isn't my real father. I don't know where I belong.
+  expected_themes: [identity, family, abandonment]
+  expected_situation: kunti-reveals-karna
+- id: h12
+  lang: en
+  message: My father always covers for my brother's mistakes, even when they hurt me.
+  expected_themes: [favoritism, family, injustice]
+  expected_situation: dhritarashtra-lac-house
+- id: h13
+  lang: en
+  message: I keep telling my boss the plan will fail and he keeps ignoring me. Should I keep warning him?
+  expected_themes: [truth, loyalty, duty, counsel]
+  expected_situation: vidura-truth-dhritarashtra
+- id: h14
+  lang: en
+  message: After the layoffs I lost everything, and it has been three years of struggle.
+  expected_themes: [patience, setback, loss, career]
+  expected_situation: nala-damayanti-teaches-patience
+- id: h15
+  lang: en
+  message: Someone humiliated my wife and I swore I would make him pay. Now it's eating me up.
+  expected_themes: [revenge, humiliation, anger, vow]
+  expected_situation: bhima-vows-revenge
+- id: h16
+  lang: hinglish
+  message: Interview mein ghabra gaya, ab lagta hai main kisi kaam ka nahi hoon
+  expected_themes: [fear of failure, self-worth, career]
+- id: h17
+  lang: hinglish
+  message: Meri didi ko sab log zyada maante hain, mujhe andar se jalan hoti hai
+  expected_themes: [envy, family, favoritism]
+  expected_situation: duryodhana-maya-palace
+- id: h18
+  lang: hinglish
+  message: Papa ki death ke baad sab khaali khaali lagta hai
+  expected_themes: [grief, loss, emptiness]
+- id: h19
+  lang: hinglish
+  message: Satta mein saare paise haar gaya, ghar walon ko kaise bataun
+  expected_themes: [gambling, addiction, guilt, family]
+  expected_situation: yudhishthira-dice-game
+- id: h20
+  lang: hinglish
+  message: Sabke saamne meri beizzati hui aur koi kuch nahi bola
+  expected_themes: [humiliation, silence, injustice]
+  expected_situation: draupadi-disrobing-sabha
+- id: h21
+  lang: hi
+  message: मेरे बेटे की मौत के बाद जीने का मन नहीं करता
+  expected_themes: [grief, loss, despair]
+  expected_situation: gandhari-lament-sons
+- id: h22
+  lang: hi
+  message: मुझे पता चला कि मुझे बचपन में गोद लिया गया था, अब असली माँ मिलना चाहती है
+  expected_themes: [abandonment, identity, family]
+  expected_situation: kunti-reveals-karna
+- id: h23
+  lang: hi
+  message: मेरा दोस्त गलत रास्ते पर है, पर उसने हमेशा मेरा साथ दिया, मैं क्या करूँ?
+  expected_themes: [loyalty, friendship, duty]
+- id: h24
+  lang: hi
+  message: परीक्षा से पहले हाथ-पैर काँपने लगते हैं, सब भूल जाता हूँ
+  expected_themes: [fear of failure, anxiety, exams]
+  expected_situation: arjuna-kurukshetra-dilemma
+- id: h25
+  lang: banglish
+  message: Amar didi ke shobai beshi bhalobashe, amar khub hingsha hoy
+  expected_themes: [envy, family, favoritism]
+  expected_situation: duryodhana-maya-palace
+- id: h26
+  lang: banglish
+  message: Chele mara jawar por ami r kichu bhabte parchi na
+  expected_themes: [grief, loss, death]
+  expected_situation: gandhari-lament-sons
+- id: h27
+  lang: banglish
+  message: Juar nesha amar sansar sesh kore dicche
+  expected_themes: [addiction, gambling, family]
+  expected_situation: yudhishthira-dice-game
+- id: h28
+  lang: bn
+  message: অফিসে সবার সামনে আমাকে অপমান করা হলো, কেউ একটা কথাও বলল না
+  expected_themes: [humiliation, silence, injustice, workplace]
+  expected_situation: draupadi-disrobing-sabha
+- id: h29
+  lang: bn
+  message: বহু বছর ধরে চাকরি খুঁজছি, আর পারছি না, তবু থামতেও পারছি না
+  expected_themes: [patience, setback, perseverance, career]
+  expected_situation: nala-damayanti-teaches-patience
+- id: h30
+  lang: bn
+  message: আমি জানতে পারলাম আমার আসল মা আমাকে ছোটবেলায় ছেড়ে দিয়েছিল
+  expected_themes: [abandonment, identity, family]
+  expected_situation: kunti-reveals-karna

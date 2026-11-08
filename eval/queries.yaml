@@ -1,0 +1,234 @@
+# 50 messages real users might send. expected_situation is set only where one episode is an obvious fit.
+# Written before looking at retrieval output; do not edit these to make the numbers look better.
+
+# ---------- English ----------
+- id: q01
+  lang: en
+  message: My exams start next week and I can't study at all. I just freeze every time I open the book.
+  expected_themes: [fear of failure, anxiety, paralysis, duty]
+  expected_situation: arjuna-kurukshetra-dilemma
+- id: q02
+  lang: en
+  message: My girlfriend broke up with me after four years and I don't know who I am without her.
+  expected_themes: [grief, loss, attachment, identity]
+- id: q03
+  lang: en
+  message: My parents want me to become a doctor but I want to study music. I feel like I'm betraying them.
+  expected_themes: [career, family, duty, guilt]
+- id: q04
+  lang: en
+  message: My mother passed away last month and I keep thinking I should have done more for her.
+  expected_themes: [grief, guilt, loss]
+- id: q05
+  lang: en
+  message: My manager shouted at me in front of the whole team and everyone just stayed quiet.
+  expected_themes: [humiliation, anger, injustice, silence]
+  expected_situation: draupadi-disrobing-sabha
+- id: q06
+  lang: en
+  message: My best friend got the promotion I worked for and I can't stop feeling bitter about it.
+  expected_themes: [envy, rivalry, resentment]
+  expected_situation: karna-envy-arjuna-tournament
+- id: q07
+  lang: en
+  message: I moved to a new city and I have nobody to talk to. Weekends are the worst.
+  expected_themes: [loneliness, isolation]
+- id: q08
+  lang: en
+  message: I lied to my wife about money and now the lie has become so big I can't take it back.
+  expected_themes: [guilt, deception, truth, marriage]
+- id: q09
+  lang: en
+  message: I lost all my savings on crypto trading and I keep betting more to win it back.
+  expected_themes: [addiction, gambling, loss, recklessness]
+  expected_situation: yudhishthira-dice-game
+- id: q10
+  lang: en
+  message: My friend is doing something clearly unethical at work but he helped me get this job. Should I report him?
+  expected_themes: [loyalty, truth, duty, friendship]
+- id: q11
+  lang: en
+  message: I promised my dying father I'd take over his shop, but I hate it and it's ruining my life.
+  expected_themes: [vow, duty, family, career]
+- id: q12
+  lang: en
+  message: My brother cheated me out of my share of the family property. I want revenge.
+  expected_themes: [revenge, betrayal, family, anger, injustice]
+- id: q13
+  lang: en
+  message: I found out I was adopted and my birth mother now wants to meet me. I feel angry and confused.
+  expected_themes: [abandonment, identity, family, anger]
+  expected_situation: kunti-reveals-karna
+- id: q14
+  lang: en
+  message: Everyone at college mocks me because I come from a village and my English is weak.
+  expected_themes: [humiliation, exclusion, self-worth, background]
+- id: q15
+  lang: en
+  message: My professor took credit for my research and told me to keep quiet if I want my degree.
+  expected_themes: [exploitation, injustice, mentor, sacrifice]
+  expected_situation: eklavya-drona-thumb
+- id: q16
+  lang: en
+  message: My parents always defend my younger brother no matter what he does wrong.
+  expected_themes: [favoritism, family, injustice, resentment]
+  expected_situation: dhritarashtra-lac-house
+- id: q17
+  lang: en
+  message: I won the lawsuit against my old business partner but I feel empty instead of happy.
+  expected_themes: [guilt, emptiness, victory]
+  expected_situation: yudhishthira-grief-after-victory
+- id: q18
+  lang: en
+  message: I get so angry that I say things I regret. Yesterday I screamed at my kids.
+  expected_themes: [anger, regret, self-control, family]
+- id: q19
+  lang: en
+  message: My husband has a serious illness and the doctors have given up, but I refuse to give up on him.
+  expected_themes: [devotion, death, perseverance, love]
+  expected_situation: savitri-satyavan
+- id: q20
+  lang: en
+  message: I've been unemployed for two years. Every rejection makes me feel more worthless, but I keep going.
+  expected_themes: [patience, setback, self-worth, perseverance]
+  expected_situation: nala-damayanti-teaches-patience
+- id: q21
+  lang: en
+  message: My team leader keeps making terrible decisions and I'm expected to support him in public.
+  expected_themes: [loyalty, duty, leadership, integrity]
+- id: q22
+  lang: en
+  message: I'm 70 and my children are settled. I want to let go of everything but I'm afraid.
+  expected_themes: [renunciation, letting go, death, fear]
+  expected_situation: pandavas-final-journey-renunciation
+- id: q23
+  lang: en
+  message: I told my team we would never miss a deadline, and now keeping that promise means everyone burns out.
+  expected_themes: [vow, pride, duty]
+- id: q24
+  lang: en
+  message: My cousin is always compared with me and the family celebrates everything he does.
+  expected_themes: [envy, rivalry, family, comparison]
+  expected_situation: duryodhana-maya-palace
+- id: q25
+  lang: en
+  message: I don't know what I'm supposed to do with my life. Everyone else seems to have a plan.
+  expected_themes: [purpose, career, confusion, duty]
+
+# ---------- Hinglish ----------
+- id: q26
+  lang: hinglish
+  message: Yaar boards ke exam aa rahe hain aur mujhe lagta hai main fail ho jaunga, kuch padha hi nahi jaata
+  expected_themes: [fear of failure, anxiety, exams]
+  expected_situation: arjuna-kurukshetra-dilemma
+- id: q27
+  lang: hinglish
+  message: Mere papa chahte hain main engineering karu par mera mann art mein hai, ghar mein roz ladai hoti hai
+  expected_themes: [career, family, duty, conflict]
+- id: q28
+  lang: hinglish
+  message: Usne mujhe sabke saamne zaleel kiya, main badla lena chahta hoon
+  expected_themes: [humiliation, revenge, anger]
+  expected_situation: bhima-vows-revenge
+- id: q29
+  lang: hinglish
+  message: Breakup ke baad se neend nahi aati, har cheez mein uski yaad aati hai
+  expected_themes: [grief, loss, attachment, loneliness]
+- id: q30
+  lang: hinglish
+  message: Mera dost galat kaam kar raha hai par usne mushkil time mein mera saath diya tha, ab kya karu
+  expected_themes: [loyalty, friendship, duty, truth]
+- id: q31
+  lang: hinglish
+  message: Office mein sab mujhse aage nikal gaye, mujhe bahut jalan hoti hai
+  expected_themes: [envy, career, rivalry, comparison]
+- id: q32
+  lang: hinglish
+  message: Maine jhooth bola taaki meri behen ki shaadi ho jaye, ab guilt se mar raha hoon
+  expected_themes: [deception, guilt, family, truth]
+  expected_situation: yudhishthira-ashwatthama-lie
+- id: q33
+  lang: hinglish
+  message: Bahut gussa aata hai, chhoti chhoti baat pe sab pe chilla deta hoon
+  expected_themes: [anger, self-control, regret]
+
+# ---------- Hindi (Devanagari) ----------
+- id: q34
+  lang: hi
+  message: मेरे पिताजी का देहांत हो गया है और मैं खुद को संभाल नहीं पा रहा हूँ
+  expected_themes: [grief, loss, death]
+- id: q35
+  lang: hi
+  message: मेरे भाई को हमेशा ज़्यादा प्यार मिलता है, मुझे उससे जलन होती है
+  expected_themes: [envy, family, favoritism, sibling rivalry]
+  expected_situation: duryodhana-maya-palace
+- id: q36
+  lang: hi
+  message: मैंने एक वादा किया था जो अब मेरे लिए जाल बन गया है
+  expected_themes: [vow, trap, duty]
+- id: q37
+  lang: hi
+  message: नौकरी छूट गई है, समझ नहीं आता आगे क्या करूँ, बहुत डर लगता है
+  expected_themes: [fear, career, uncertainty, setback]
+- id: q38
+  lang: hi
+  message: मेरी सास मुझे सबके सामने ताने मारती है और मेरे पति कुछ नहीं बोलते
+  expected_themes: [humiliation, silence, family, injustice]
+  expected_situation: draupadi-disrobing-sabha
+- id: q39
+  lang: hi
+  message: जिस इंसान ने मेरा दिल तोड़ा, उसे माफ़ करूँ या नहीं?
+  expected_themes: [forgiveness, betrayal, anger]
+
+# ---------- Banglish ----------
+- id: q40
+  lang: banglish
+  message: Amar boss amake shobar shamne opoman korlo
+  expected_themes: [humiliation, workplace, anger]
+  expected_situation: draupadi-disrobing-sabha
+- id: q41
+  lang: banglish
+  message: Porikkhar age bhoy lagche, mone hocche ami kichu parbo na
+  expected_themes: [fear of failure, anxiety, exams]
+  expected_situation: arjuna-kurukshetra-dilemma
+- id: q42
+  lang: banglish
+  message: Ma baba chay ami chakri kori, kintu ami nijer business korte chai
+  expected_themes: [career, family, duty]
+- id: q43
+  lang: banglish
+  message: Amar bondhu amar pith e chhuri marlo, ami ki korbo bujhte parchi na
+  expected_themes: [betrayal, friendship, anger, confusion]
+- id: q44
+  lang: banglish
+  message: Khub eka lage, kotha bolar keu nei
+  expected_themes: [loneliness, isolation]
+- id: q45
+  lang: banglish
+  message: Online juar nesha hoye geche, shob taka hariye felechi
+  expected_themes: [addiction, gambling, loss]
+  expected_situation: yudhishthira-dice-game
+
+# ---------- Bengali (script) ----------
+- id: q46
+  lang: bn
+  message: আমার বাবা মারা গেছেন, আমি কিছুতেই মেনে নিতে পারছি না
+  expected_themes: [grief, loss, death]
+- id: q47
+  lang: bn
+  message: আমার ছোট ভাইকে সবাই বেশি ভালোবাসে, আমার খুব হিংসা হয়
+  expected_themes: [envy, family, favoritism]
+- id: q48
+  lang: bn
+  message: আমি জানি আমার দাদা ভুল করছে, কিন্তু পরিবারের সবাই চুপ করে আছে
+  expected_themes: [silence, injustice, family, complicity]
+  expected_situation: silence-of-elders-udyoga
+- id: q49
+  lang: bn
+  message: চাকরির ইন্টারভিউতে বারবার ব্যর্থ হচ্ছি, আর ধৈর্য রাখতে পারছি না
+  expected_themes: [patience, failure, setback, career]
+  expected_situation: nala-damayanti-teaches-patience
+- id: q50
+  lang: bn
+  message: রাগের মাথায় এমন কিছু করে ফেলেছি যার জন্য এখন অনুশোচনা হচ্ছে
+  expected_themes: [anger, regret, guilt]
